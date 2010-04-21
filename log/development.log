@@ -1,0 +1,327 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (27.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (9.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100420215704)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (60.0ms)[0m   [0mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tittle" varchar(255), "description" text, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100420215704')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100420215704)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mDROP TABLE "products"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100420215704'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100420220304)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100420220304')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-04-21 00:06:14) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 2466ms (View: 2454, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-04-21 00:07:30) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 30ms (View: 18, DB: 0) | 200 OK [http://127.0.0.1/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-04-21 00:12:26) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"jfsqJtFzi03HhEM/tr+1ypBt0imaDMh0/IFGkfnAedY=", "product"=>{"image_url"=>"/images/kelly_bag.jpg", "title"=>"Kelly Hermes bag", "description"=>"One of the most sought-after purses of recent decades has to be the Hermès Kelly bag, a timeless handbag design, right up there with it’s sister, the Hermès Birkin. The Kelly bag, however, has enjoyed a longer life than its sibling, when it was thrust into the limelight in 1956.\r\n\r\nThe origins of the Kelly first appeared, in its original form in the 1930’s but it wasn’t until 1956 that it truly became a star. With its smart tailored-shape it evolved into a ‘50s favorite during the Hollywood glamour years, and has enjoyed an iconic status ever since."}}
+  [4;35;1mProduct Create (1.0ms)[0m   [0mINSERT INTO "products" ("image_url", "updated_at", "title", "description", "created_at") VALUES('/images/kelly_bag.jpg', '2010-04-20 22:12:26', 'Kelly Hermes bag', 'One of the most sought-after purses of recent decades has to be the Hermès Kelly bag, a timeless handbag design, right up there with it’s sister, the Hermès Birkin. The Kelly bag, however, has enjoyed a longer life than its sibling, when it was thrust into the limelight in 1956.
+
+The origins of the Kelly first appeared, in its original form in the 1930’s but it wasn’t until 1956 that it truly became a star. With its smart tailored-shape it evolved into a ‘50s favorite during the Hollywood glamour years, and has enjoyed an iconic status ever since.', '2010-04-20 22:12:26')[0m
+Redirected to http://127.0.0.1:3001/products/1
+Completed in 29ms (DB: 1) | 302 Found [http://127.0.0.1/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-04-21 00:12:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 26ms (View: 12, DB: 0) | 200 OK [http://127.0.0.1/products/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100420220304)
+Migrating to AddPriceToProduct (20100420221431)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mALTER TABLE "products" ADD "price" decimal(8,2) DEFAULT 0[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100420221431')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-04-21 00:22:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 28ms (View: 16, DB: 1) | 200 OK [http://127.0.0.1/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-04-21 00:22:27) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 29ms (View: 17, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-04-21 00:29:48) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 33ms (View: 19, DB: 0) | 200 OK [http://127.0.0.1/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-04-21 00:29:55) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"jfsqJtFzi03HhEM/tr+1ypBt0imaDMh0/IFGkfnAedY=", "product"=>{"image_url"=>"", "price"=>"0.0", "title"=>"", "description"=>""}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 87ms (View: 72, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-04-21 00:30:23) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"jfsqJtFzi03HhEM/tr+1ypBt0imaDMh0/IFGkfnAedY=", "product"=>{"image_url"=>"", "price"=>"0.0", "title"=>"", "description"=>""}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 52ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-04-21 00:30:54) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"jfsqJtFzi03HhEM/tr+1ypBt0imaDMh0/IFGkfnAedY=", "product"=>{"image_url"=>"", "price"=>"0.0", "title"=>"", "description"=>""}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 42ms (View: 25, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-04-21 00:31:06) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"jfsqJtFzi03HhEM/tr+1ypBt0imaDMh0/IFGkfnAedY=", "product"=>{"image_url"=>"gbhngfv", "price"=>"tbggf", "title"=>"bgfbvcd", "description"=>"bgvf"}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 33ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-04-21 00:32:54) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"jfsqJtFzi03HhEM/tr+1ypBt0imaDMh0/IFGkfnAedY=", "product"=>{"image_url"=>"gbhngfv", "price"=>"0", "title"=>"bgfbvcd", "description"=>"bgvf"}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 34ms (View: 14, DB: 0) | 200 OK [http://127.0.0.1/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddTestData (20080601000003)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mProduct Delete all (1.0ms)[0m   [0mDELETE FROM "products" WHERE 1=1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Pragmatic Project Automation') LIMIT 1[0m
+  [4;35;1mProduct Create (0.0ms)[0m   [0mINSERT INTO "products" ("image_url", "updated_at", "title", "price", "description", "created_at") VALUES('/images/auto.jpg', '2010-04-21 12:18:06', 'Pragmatic Project Automation', 29.95, '<p>
+ <em>Pragmatic Project Automation</em> shows you how to improve the 
+ consistency and repeatability of your project''s procedures using 
+ automation to reduce risk and errors.
+ </p>
+ <p>
+ Simply put, we''re going to put this thing called a computer to work 
+ for you doing the mundane (but important) project stuff. That means 
+ you''ll have more time and energy to do the really 
+ exciting---and difficult---stuff, like writing quality code.
+ </p>', '2010-04-21 12:18:06')[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Pragmatic Version Control') LIMIT 1[0m
+  [4;35;1mProduct Create (0.0ms)[0m   [0mINSERT INTO "products" ("image_url", "updated_at", "title", "price", "description", "created_at") VALUES('/images/svn.jpg', '2010-04-21 12:18:06', 'Pragmatic Version Control', 28.5, '<p>
+ This book is a recipe-based approach to using Subversion that will 
+ get you up and running quickly---and correctly. All projects need
+ version control: it''s a foundational piece of any project''s 
+ infrastructure. Yet half of all project teams in the U.S. don''t use
+ any version control at all. Many others don''t use it well, and end 
+ up experiencing time-consuming problems.
+ </p>', '2010-04-21 12:18:06')[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Pragmatic Unit Testing (C#)') LIMIT 1[0m
+  [4;35;1mProduct Create (0.0ms)[0m   [0mINSERT INTO "products" ("image_url", "updated_at", "title", "price", "description", "created_at") VALUES('/images/utc.jpg', '2010-04-21 12:18:06', 'Pragmatic Unit Testing (C#)', 27.75, '<p>
+ Pragmatic programmers use feedback to drive their development and 
+ personal processes. The most valuable feedback you can get while 
+ coding comes from unit testing.
+ </p>
+ <p>
+ Without good tests in place, coding can become a frustrating game of 
+ "whack-a-mole." That''s the carnival game where the player strikes at a 
+ mechanical mole; it retreats and another mole pops up on the opposite side 
+ of the field. The moles pop up and down so fast that you end up flailing 
+ your mallet helplessly as the moles continue to pop up where you least 
+ expect them.
+ </p>', '2010-04-21 12:18:06')[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080601000003')[0m
+Migrating to CreateProducts (20100420220304)
+Migrating to AddPriceToProduct (20100420221431)
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 14:20:05) [GET]
+
+ActionController::RoutingError (No route matches "/show" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 14:20:44) [GET]
+
+ActionController::RoutingError (No route matches "/show" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-04-21 14:20:54) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 2784ms (View: 2771, DB: 1) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-04-21 14:21:03) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 18, DB: 1) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-04-21 14:21:04) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 19, DB: 1) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-04-21 14:21:05) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 19, DB: 1) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-04-21 14:21:06) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 19, DB: 1) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-04-21 14:21:06) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 32ms (View: 19, DB: 1) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-04-21 14:21:06) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 32ms (View: 19, DB: 1) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-04-21 14:22:46) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 39ms (View: 25, DB: 1) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-04-21 14:25:12) [GET]
+  [4;36;1mProduct Load (2.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+Completed in 45ms (View: 32, DB: 2) | 200 OK [http://127.0.0.1/products]
