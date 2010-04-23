@@ -12,5 +12,8 @@ protected
     errors.add(:price, 'should be at least 0.01' ) if price.nil? || price < 0.01
   end
 
+  def self.find_products_for_sale
+    find(:all, :order => "title" )
+  end
 end
 

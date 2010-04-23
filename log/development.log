@@ -325,3 +325,144 @@ DEPRECATION WARNING: truncate takes an option hash instead of separate length an
 DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
 DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
 Completed in 45ms (View: 32, DB: 2) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-04-21 22:20:02) [GET]
+  [4;36;1mProduct Load (3.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+Completed in 2716ms (View: 2684, DB: 3) | 200 OK [http://127.0.0.1/products]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 19:45:08) [GET]
+Rendering store/index
+Completed in 69ms (View: 68, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 19:50:00) [GET]
+  [4;36;1mProduct Load (166.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 396ms (View: 217, DB: 166) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 19:50:02) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 18ms (View: 7, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 19:50:02) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 19ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 19:56:37) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 19:56:49) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 19:58:22) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 18ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 20:05:34) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 20:06:40) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 141ms (View: 130, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-04-23 20:07:49) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+Completed in 2571ms (View: 2541, DB: 1) | 200 OK [http://127.0.0.1/products]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 20:07:58) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 19ms (View: 7, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 20:14:23) [GET]
+  [4;35;1mProduct Load (10.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 20ms (View: 0, DB: 10) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 20:14:24) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 17ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 20:14:25) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 20:17:36) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 19ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 20:22:14) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 40ms (View: 30, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 20:23:56) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 30ms (View: 20, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 20:26:15) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 100ms (View: 80, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-23 20:26:18) [POST]
+  Parameters: {"authenticity_token"=>"JtE1RloiY3q2Y3wwagyw5m8G+FseV7zle0j4lBlC2U8=", "id"=>"2"}
+
+ActionController::UnknownAction (No action responded to add_to_cart. Actions: index):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-23 20:26:21) [GET]
+  [4;36;1mProduct Load (10.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 30ms (View: 10, DB: 10) | 200 OK [http://127.0.0.1/store]
