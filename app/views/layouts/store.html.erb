@@ -20,7 +20,11 @@
 			</div>
 			 
 			<div id="main">
-			<%= yield :layout %>
+				<% if flash[:notice] -%>
+					<div id="notice"><%= flash[:notice] %></div>
+				<% end -%>
+				
+				<%= yield :layout %>
 			</div>
 		</div>
  	</body>
