@@ -923,3 +923,1938 @@ Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-28 11:12:19) [P
 Rendering template within layouts/store
 Rendering store/add_to_cart
 Completed in 43ms (View: 13, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/4]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 17:30:24) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (4.0ms)
+Completed in 2839ms (View: 226, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 17:30:36) [POST]
+  Parameters: {"authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"4"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 4) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Rendered store/_cart_item (11.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (3.0ms)
+Completed in 79ms (View: 32, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/4]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 17:33:51) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (3.0ms)
+Completed in 50ms (View: 21, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 17:33:55) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (3.0ms)
+Completed in 49ms (View: 21, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 17:33:55) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (3.0ms)
+Completed in 48ms (View: 22, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 17:33:55) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (3.0ms)
+Completed in 49ms (View: 21, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 17:33:58) [POST]
+  Parameters: {"authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"3"}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Redirected to http://127.0.0.1:3001/store
+Completed in 28ms (DB: 2) | 302 Found [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 17:33:58) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (4.0ms)
+Completed in 49ms (View: 21, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 17:48:57) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (3.0ms)
+Completed in 71ms (View: 45, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 17:48:58) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (3.0ms)
+Completed in 54ms (View: 30, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2010-04-30 17:48:59) [POST]
+  Parameters: {"authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks="}
+Redirected to http://127.0.0.1:3001/store
+Completed in 23ms (DB: 1) | 302 Found [http://127.0.0.1/store/empty_cart]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 17:48:59) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 49ms (View: 28, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 17:49:01) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"2"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (9.0ms)
+Completed in 46ms (View: 18, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 17:49:06) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"3"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (8.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (11.0ms)
+Completed in 105ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 18:38:11) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (6.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (14.0ms)
+Completed in 64ms (View: 40, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:38:12) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"2"}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 58ms (View: 20, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:38:41) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"2"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 39ms (View: 13, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 18:39:27) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (2.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (11.0ms)
+Completed in 257ms (View: 173, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:39:29) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"2"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (8.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (12.0ms)
+Completed in 48ms (View: 22, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 18:40:03) [GET]
+  [4;36;1mProduct Load (2.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (3.0ms)
+Completed in 54ms (View: 29, DB: 3) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:40:05) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"2"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (9.0ms)
+Completed in 46ms (View: 19, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:40:07) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (9.0ms)
+Completed in 39ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:40:12) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"4"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 4) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 40ms (View: 13, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/4]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 18:41:19) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (4.0ms)
+Completed in 55ms (View: 30, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:41:21) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"2"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 47ms (View: 21, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 18:44:39) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (4.0ms)
+Completed in 56ms (View: 31, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:44:42) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"2"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (11.0ms)
+Completed in 45ms (View: 19, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2010-04-30 18:44:47) [POST]
+  Parameters: {"authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks="}
+Redirected to http://127.0.0.1:3001/store
+Completed in 22ms (DB: 1) | 302 Found [http://127.0.0.1/store/empty_cart]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 18:44:48) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 50ms (View: 28, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 18:54:33) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 115ms (View: 35, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:54:35) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (9.0ms)
+Completed in 47ms (View: 17, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 18:54:48) [GET]
+  [4;35;1mProduct Load (2.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 5633ms (View: 27, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:54:56) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 41ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:54:58) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4=", "id"=>"4", "_"=>""}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 4) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 39ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/4]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:55:01) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4=", "id"=>"3", "_"=>""}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 41ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:55:02) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4=", "id"=>"3", "_"=>""}
+  [4;35;1mProduct Load (61.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 100ms (View: 13, DB: 61) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2010-04-30 18:55:05) [POST]
+  Parameters: {"authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4="}
+Redirected to http://127.0.0.1:3001/store
+Completed in 24ms (DB: 1) | 302 Found [http://127.0.0.1/store/empty_cart]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 18:55:05) [GET]
+  [4;36;1mProduct Load (2.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 54ms (View: 30, DB: 3) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:55:07) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (9.0ms)
+Completed in 40ms (View: 12, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:55:13) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4=", "id"=>"4", "_"=>""}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 4) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 39ms (View: 13, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/4]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:55:15) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4=", "id"=>"3", "_"=>""}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (11.0ms)
+Completed in 40ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:55:16) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4=", "id"=>"3", "_"=>""}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (11.0ms)
+Completed in 42ms (View: 15, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:55:17) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4=", "id"=>"3", "_"=>""}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (8.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (12.0ms)
+Completed in 43ms (View: 15, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:55:18) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4=", "id"=>"3", "_"=>""}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (11.0ms)
+Completed in 44ms (View: 15, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 18:55:20) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4=", "id"=>"3", "_"=>""}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (11.0ms)
+Completed in 41ms (View: 14, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2010-04-30 18:55:21) [POST]
+  Parameters: {"authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4="}
+Redirected to http://127.0.0.1:3001/store
+Completed in 24ms (DB: 1) | 302 Found [http://127.0.0.1/store/empty_cart]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 18:55:22) [GET]
+  [4;36;1mProduct Load (2.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 59ms (View: 37, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-30 18:58:37) [GET]
+
+SyntaxError (C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/store_controller.rb:42: syntax error, unexpected $end, expecting kEND):
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (49.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-30 18:58:48) [GET]
+
+SyntaxError (C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/store_controller.rb:42: syntax error, unexpected $end, expecting kEND):
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (111.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 19:00:31) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (2.0ms)
+Completed in 54ms (View: 29, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 19:00:34) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"2"}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (9.0ms)
+Rendered store/_cart (11.0ms)
+Completed in 40ms (View: 14, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 19:00:58) [GET]
+  [4;35;1mProduct Load (2.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (2.0ms)
+Completed in 59ms (View: 31, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 19:01:00) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"ANZAnmkpcJYl1I9HR8swOsmA2ZRwv4Fevh13PTOtNks=", "id"=>"2"}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (9.0ms)
+Completed in 40ms (View: 12, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 19:01:09) [GET]
+  [4;35;1mProduct Load (2.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 49ms (View: 29, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 19:01:10) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (8.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 41ms (View: 13, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2010-04-30 19:01:15) [POST]
+  Parameters: {"authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4="}
+Redirected to http://127.0.0.1:3001/store
+Completed in 24ms (DB: 1) | 302 Found [http://127.0.0.1/store/empty_cart]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 19:01:15) [GET]
+  [4;35;1mProduct Load (2.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 55ms (View: 31, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-04-30 19:01:21) [GET]
+  [4;36;1mProduct Load (2.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 48ms (View: 28, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-04-30 19:01:24) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"FaFD+HvdO27fW45P5g4oWVWXylitxT0cH4SKgKFQLB4=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 40ms (View: 12, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-07 22:09:50) [GET]
+  [4;36;1mProduct Load (14.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 2749ms (View: 293, DB: 15) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-07 22:10:44) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"/BISDhyuXoQh31mYPbYMYUDzHE170GfYohCZoHKVT98=", "id"=>"2"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (9.0ms)
+Rendered store/_cart (16.0ms)
+Completed in 57ms (View: 24, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-07 22:10:53) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"/BISDhyuXoQh31mYPbYMYUDzHE170GfYohCZoHKVT98=", "id"=>"3"}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 39ms (View: 13, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-07 22:11:03) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"/BISDhyuXoQh31mYPbYMYUDzHE170GfYohCZoHKVT98=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (9.0ms)
+Completed in 39ms (View: 12, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2010-05-07 22:11:05) [POST]
+  Parameters: {"authenticity_token"=>"/BISDhyuXoQh31mYPbYMYUDzHE170GfYohCZoHKVT98="}
+Redirected to http://127.0.0.1:3001/store
+Completed in 22ms (DB: 1) | 302 Found [http://127.0.0.1/store/empty_cart]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-07 22:11:06) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 52ms (View: 28, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-09 23:37:25) [GET]
+  [4;36;1mProduct Load (17.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (6.0ms)
+Completed in 2872ms (View: 192, DB: 17) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:37:33) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"0nD5yiVBLw1wPy0yH+ydi0NJvFkBMGs5T/e6KOKge4o=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (13.0ms)
+Rendered store/_cart (19.0ms)
+Completed in 58ms (View: 29, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-09 23:38:37) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 2651ms (View: 164, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-09 23:38:42) [GET]
+  [4;35;1mProduct Load (2.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 53ms (View: 33, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-09 23:38:42) [GET]
+  [4;36;1mProduct Load (2.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 50ms (View: 30, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-09 23:38:42) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 48ms (View: 28, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:38:44) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"KfrLBHPohWJA/Zj1NGth89ujawjGSQsxIBGf3NS2ekw=", "id"=>"2"}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (9.0ms)
+Rendered store/_cart (16.0ms)
+Completed in 55ms (View: 25, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:38:58) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"KfrLBHPohWJA/Zj1NGth89ujawjGSQsxIBGf3NS2ekw=", "id"=>"3"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (68.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (70.0ms)
+Completed in 100ms (View: 73, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2010-05-09 23:39:06) [POST]
+  Parameters: {"authenticity_token"=>"KfrLBHPohWJA/Zj1NGth89ujawjGSQsxIBGf3NS2ekw="}
+Redirected to http://127.0.0.1:3001/store
+Completed in 23ms (DB: 1) | 302 Found [http://127.0.0.1/store/empty_cart]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-09 23:39:06) [GET]
+  [4;36;1mProduct Load (2.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 51ms (View: 28, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:39:11) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"KfrLBHPohWJA/Zj1NGth89ujawjGSQsxIBGf3NS2ekw=", "id"=>"4"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 4) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (9.0ms)
+Completed in 40ms (View: 12, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/4]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-09 23:43:55) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Rendered store/_cart (2.0ms)
+Completed in 60ms (View: 39, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-09 23:46:01) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 57ms (View: 36, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-09 23:46:03) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 49ms (View: 29, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-09 23:46:22) [GET]
+  [4;35;1mProduct Load (2.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 57ms (View: 36, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:46:25) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"9M+/N4r62yKS2ggms2tCtGD6mS1F9zdoTBYIQu1n2QA=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (8.0ms)
+Completed in 41ms (View: 12, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:46:56) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"9M+/N4r62yKS2ggms2tCtGD6mS1F9zdoTBYIQu1n2QA=", "id"=>"2"}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (4.0ms)
+Rendered store/_cart (79.0ms)
+Completed in 273ms (View: 147, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-09 23:47:16) [GET]
+  [4;35;1mProduct Load (2.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 2756ms (View: 45, DB: 2) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:47:22) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"7RzKEx9W4E8fqmJptX5iSFwoMY0NDRAeUaZbkIgsRYI=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (9.0ms)
+Completed in 43ms (View: 12, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:47:23) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"7RzKEx9W4E8fqmJptX5iSFwoMY0NDRAeUaZbkIgsRYI=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (9.0ms)
+Completed in 41ms (View: 12, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:47:24) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"7RzKEx9W4E8fqmJptX5iSFwoMY0NDRAeUaZbkIgsRYI=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (9.0ms)
+Completed in 42ms (View: 13, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:47:26) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"7RzKEx9W4E8fqmJptX5iSFwoMY0NDRAeUaZbkIgsRYI=", "id"=>"3", "_"=>""}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 41ms (View: 13, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2010-05-09 23:47:28) [POST]
+  Parameters: {"authenticity_token"=>"7RzKEx9W4E8fqmJptX5iSFwoMY0NDRAeUaZbkIgsRYI="}
+Redirected to http://127.0.0.1:3001/store
+Completed in 84ms (DB: 1) | 302 Found [http://127.0.0.1/store/empty_cart]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-09 23:47:28) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 51ms (View: 28, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:47:30) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"7RzKEx9W4E8fqmJptX5iSFwoMY0NDRAeUaZbkIgsRYI=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (9.0ms)
+Completed in 41ms (View: 12, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:47:33) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"7RzKEx9W4E8fqmJptX5iSFwoMY0NDRAeUaZbkIgsRYI=", "id"=>"3", "_"=>""}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 40ms (View: 13, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:47:35) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"7RzKEx9W4E8fqmJptX5iSFwoMY0NDRAeUaZbkIgsRYI=", "id"=>"4", "_"=>""}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 4) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 42ms (View: 14, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/4]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2010-05-09 23:47:37) [POST]
+  Parameters: {"authenticity_token"=>"7RzKEx9W4E8fqmJptX5iSFwoMY0NDRAeUaZbkIgsRYI="}
+Redirected to http://127.0.0.1:3001/store
+Completed in 23ms (DB: 1) | 302 Found [http://127.0.0.1/store/empty_cart]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-09 23:47:37) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 51ms (View: 28, DB: 1) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-09 23:47:51) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"9M+/N4r62yKS2ggms2tCtGD6mS1F9zdoTBYIQu1n2QA=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (78.0ms)
+Rendered store/_cart (80.0ms)
+Completed in 115ms (View: 84, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddTestData (20080601000003)
+Migrating to CreateProducts (20100420220304)
+Migrating to AddPriceToProduct (20100420221431)
+Migrating to CreateSessions (20100423185449)
+Migrating to CreateOrders (20100510194150)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mCREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "address" text, "email" varchar(255), "pay_type" varchar(10), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100510194150')[0m
+Migrating to CreateLineItems (20100510194403)
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer NOT NULL, "order_id" integer NOT NULL, "quantity" integer NOT NULL, "total_price" decimal(8,2) NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100510194403')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("line_items")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("orders")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("sessions")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_sessions_on_session_id')[0m
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-10 22:38:49) [GET]
+  [4;36;1mProduct Load (2.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (5.0ms)
+Completed in 2817ms (View: 217, DB: 3) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-10 22:38:55) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"o0/rDBmPgKG6Vys4KjkEnB3KkCQxW3dWjnkkN1ZDNBA=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (16.0ms)
+Rendered store/_cart (16.0ms)
+Completed in 62ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#checkout (for 127.0.0.1 at 2010-05-10 22:38:58) [POST]
+  Parameters: {"authenticity_token"=>"o0/rDBmPgKG6Vys4KjkEnB3KkCQxW3dWjnkkN1ZDNBA="}
+Rendering template within layouts/store
+Rendering store/checkout
+Rendered store/_cart_item (9.0ms)
+Rendered store/_cart (11.0ms)
+Completed in 66ms (View: 33, DB: 1) | 200 OK [http://127.0.0.1/store/checkout]
+
+
+Processing StoreController#save_order (for 127.0.0.1 at 2010-05-10 22:39:14) [POST]
+  Parameters: {"commit"=>"Place Order", "order"=>{"name"=>"Kamila", "pay_type"=>"cc", "address"=>"gnlgjnlsnvjn", "email"=>"kamila.wojciechowska@gmail.com"}, "authenticity_token"=>"o0/rDBmPgKG6Vys4KjkEnB3KkCQxW3dWjnkkN1ZDNBA="}
+
+ActionController::UnknownAction (No action responded to save_order. Actions: add_to_cart, checkout, empty_cart, and index):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-10 22:46:10) [GET]
+  [4;36;1mProduct Load (2.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 117ms (View: 94, DB: 3) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-10 22:46:12) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"bjoP8s1khXE81qrENbZwUkUpIj+qi6iBWg17qxCeHVE=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (0.0ms)
+Completed in 32ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-10 22:46:13) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"bjoP8s1khXE81qrENbZwUkUpIj+qi6iBWg17qxCeHVE=", "id"=>"4"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 4) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (16.0ms)
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/4]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddTestData (20080601000003)
+Migrating to CreateProducts (20100420220304)
+Migrating to AddPriceToProduct (20100420221431)
+Migrating to CreateSessions (20100423185449)
+Migrating to CreateOrders (20100510194150)
+Migrating to CreateLineItems (20100510194403)
+
+
+Processing StoreController#checkout (for 127.0.0.1 at 2010-05-10 22:46:15) [POST]
+  Parameters: {"authenticity_token"=>"bjoP8s1khXE81qrENbZwUkUpIj+qi6iBWg17qxCeHVE="}
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("line_items")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("orders")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mPRAGMA index_list("sessions")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_sessions_on_session_id')[0m
+Rendering template within layouts/store
+Rendering store/checkout
+Rendered store/_cart_item (9.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (14.0ms)
+Completed in 92ms (View: 31, DB: 1) | 200 OK [http://127.0.0.1/store/checkout]
+
+
+Processing StoreController#save_order (for 127.0.0.1 at 2010-05-10 22:46:26) [POST]
+  Parameters: {"commit"=>"Place Order", "order"=>{"name"=>"Kamila", "pay_type"=>"", "address"=>"dfgblfavnlai", "email"=>"kamila@gmaic.co"}, "authenticity_token"=>"bjoP8s1khXE81qrENbZwUkUpIj+qi6iBWg17qxCeHVE="}
+Rendering template within layouts/store
+Rendering store/checkout
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (4.0ms)
+Completed in 116ms (View: 26, DB: 1) | 200 OK [http://127.0.0.1/store/save_order]
+
+
+Processing StoreController#save_order (for 127.0.0.1 at 2010-05-10 22:46:39) [POST]
+  Parameters: {"commit"=>"Place Order", "order"=>{"name"=>"Kamila", "pay_type"=>"cc", "address"=>"", "email"=>"kamila@gmaic.co"}, "authenticity_token"=>"bjoP8s1khXE81qrENbZwUkUpIj+qi6iBWg17qxCeHVE="}
+Rendering template within layouts/store
+Rendering store/checkout
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart_item (0.0ms)
+Rendered store/_cart (5.0ms)
+Completed in 78ms (View: 24, DB: 1) | 200 OK [http://127.0.0.1/store/save_order]
+
+
+Processing StoreController#save_order (for 127.0.0.1 at 2010-05-10 22:46:50) [POST]
+  Parameters: {"commit"=>"Place Order", "order"=>{"name"=>"Kamila", "pay_type"=>"cc", "address"=>"Szczesliwa 14", "email"=>"kamila@gmaic.co"}, "authenticity_token"=>"bjoP8s1khXE81qrENbZwUkUpIj+qi6iBWg17qxCeHVE="}
+  [4;35;1mOrder Create (2.0ms)[0m   [0mINSERT INTO "orders" ("name", "updated_at", "pay_type", "address", "email", "created_at") VALUES('Kamila', '2010-05-10 20:46:50', 'cc', 'Szczesliwa 14', 'kamila@gmaic.co', '2010-05-10 20:46:50')[0m
+  [4;36;1mLineItem Create (0.0ms)[0m   [0;1mINSERT INTO "line_items" ("order_id", "updated_at", "total_price", "product_id", "quantity", "created_at") VALUES(1, '2010-05-10 20:46:50', 29.95, 2, 1, '2010-05-10 20:46:50')[0m
+  [4;35;1mLineItem Create (0.0ms)[0m   [0mINSERT INTO "line_items" ("order_id", "updated_at", "total_price", "product_id", "quantity", "created_at") VALUES(1, '2010-05-10 20:46:50', 27.75, 4, 1, '2010-05-10 20:46:50')[0m
+Redirected to http://127.0.0.1:3001/store
+Completed in 236ms (DB: 3) | 302 Found [http://127.0.0.1/store/save_order]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-10 22:46:50) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 51ms (View: 29, DB: 2) | 200 OK [http://127.0.0.1/store]
+  [4;36;1mSQL (34.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddTestData (20080601000003)
+Migrating to CreateProducts (20100420220304)
+Migrating to AddPriceToProduct (20100420221431)
+Migrating to CreateSessions (20100423185449)
+Migrating to CreateOrders (20100510194150)
+Migrating to CreateLineItems (20100510194403)
+Migrating to CreateUsers (20100511103105)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "hashed_password" varchar(255), "salt" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100511103105')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mPRAGMA index_list("line_items")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("orders")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("sessions")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-05-11 12:56:54) [GET]
+Rendering template within layouts/users
+Rendering users/new
+Completed in 2879ms (View: 2864, DB: 0) | 200 OK [http://127.0.0.1/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-05-11 12:57:36) [POST]
+  Parameters: {"user"=>{"name"=>"kamelury", "password_confirmation"=>"ruby123", "password"=>"ruby123"}, "commit"=>"Add User", "authenticity_token"=>"o3+t3NAoLE1a/RT2S/OCsG+0MgFzakg1FITKODxLVII="}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."name" = 'kamelury') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "salt", "updated_at", "hashed_password", "created_at") VALUES('kamelury', '854369200.302308685455955', '2010-05-11 10:57:36', '6d83b0b9228cbf2660eb95a0578b82e54ab1d5b7', '2010-05-11 10:57:36')[0m
+Redirected to http://127.0.0.1:3001/users
+Completed in 109ms (DB: 3) | 302 Found [http://127.0.0.1/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-11 12:57:36) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" ORDER BY name[0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 35ms (View: 21, DB: 2) | 200 OK [http://127.0.0.1/users]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-11 13:09:34) [GET]
+
+ActionController::RoutingError (No route matches "/admin/index" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-11 13:09:45) [GET]
+
+ActionController::RoutingError (No route matches "/admin" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-11 13:10:16) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" ORDER BY name[0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 215ms (View: 202, DB: 1) | 200 OK [http://127.0.0.1/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-05-11 13:10:40) [GET]
+  Parameters: {"id"=>"view"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find User with ID=view):
+  app/controllers/users_controller.rb:16:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (55.0ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 13:11:09) [GET]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering admin/index
+Completed in 64ms (View: 15, DB: 1) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:8)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 13:22:34) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin/login
+Filter chain halted as [:authorize] rendered_or_redirected.
+Completed in 16ms (DB: 3) | 302 Found [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:8)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 13:22:35) [GET]
+Rendering admin/login
+Completed in 16ms (View: 12, DB: 1) | 200 OK [http://127.0.0.1/admin/login]
+  [4;36;1mSQL (14.0ms)[0m   [0;1mDELETE FROM sessions[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:8)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 13:23:46) [POST]
+  Parameters: {"name"=>"kamelury", "commit"=>"Login", "authenticity_token"=>"o3+t3NAoLE1a/RT2S/OCsG+0MgFzakg1FITKODxLVII=", "password"=>"ruby123"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (118.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (unprocessable_entity)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:8)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 13:24:00) [GET]
+Rendering admin/login
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:8)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 13:24:09) [POST]
+  Parameters: {"name"=>"kamelury", "commit"=>"Login", "authenticity_token"=>"oSWxBhHONW64xw/jS9jQeFYtyJv5/kX/nDrCvfdsUvs=", "password"=>"ruby123"}
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'kamelury') LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin
+Completed in 83ms (DB: 2) | 302 Found [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:8)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 13:24:09) [GET]
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering admin/index
+Completed in 28ms (View: 1, DB: 2) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 13:25:36) [GET]
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #18 of app/views/layouts/store.html.erb:
+15: 		<div id="columns">
+16:  			<div id="side">
+17: 
+18: 				<% hidden_div_if(@cart.items.empty?, :id => "cart" ) do %>
+19: 					<%= render(:partial => "cart" , :object => @cart) %>
+20: 				<% end %>
+21: 				
+
+    app/views/layouts/store.html.erb:18
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (64.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 13:25:39) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #18 of app/views/layouts/store.html.erb:
+15: 		<div id="columns">
+16:  			<div id="side">
+17: 
+18: 				<% hidden_div_if(@cart.items.empty?, :id => "cart" ) do %>
+19: 					<%= render(:partial => "cart" , :object => @cart) %>
+20: 				<% end %>
+21: 				
+
+    app/views/layouts/store.html.erb:18
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (65.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 13:25:53) [GET]
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #18 of app/views/layouts/store.html.erb:
+15: 		<div id="columns">
+16:  			<div id="side">
+17: 
+18: 				<% hidden_div_if(@cart.items.empty?, :id => "cart" ) do %>
+19: 					<%= render(:partial => "cart" , :object => @cart) %>
+20: 				<% end %>
+21: 				
+
+    app/views/layouts/store.html.erb:18
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (65.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 13:45:03) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #18 of app/views/layouts/store.html.erb:
+15: 		<div id="columns">
+16:  			<div id="side">
+17: 
+18: 				<% hidden_div_if(@cart.items.empty?, :id => "cart" ) do %>
+19: 					<%= render(:partial => "cart" , :object => @cart) %>
+20: 				<% end %>
+21: 				
+
+    app/views/layouts/store.html.erb:18
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (67.0ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 13:45:25) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #18 of app/views/layouts/store.html.erb:
+15: 		<div id="columns">
+16:  			<div id="side">
+17: 
+18: 				<% hidden_div_if(@cart.items.empty?, :id => "cart" ) do %>
+19: 					<%= render(:partial => "cart" , :object => @cart) %>
+20: 				<% end %>
+21: 				
+
+    app/views/layouts/store.html.erb:18
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (129.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 13:46:10) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #18 of app/views/layouts/store.html.erb:
+15: 		<div id="columns">
+16:  			<div id="side">
+17: 
+18: 				<% hidden_div_if(@cart.items.empty?, :id => "cart" ) do %>
+19: 					<%= render(:partial => "cart" , :object => @cart) %>
+20: 				<% end %>
+21: 				
+
+    app/views/layouts/store.html.erb:18
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (64.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-11 13:46:38) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (6.0ms)
+Completed in 76ms (View: 52, DB: 1) | 200 OK [http://127.0.0.1/store]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-11 13:46:44) [GET]
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering users/index
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #18 of app/views/layouts/store.html.erb:
+15: 		<div id="columns">
+16:  			<div id="side">
+17: 
+18: 				<% hidden_div_if(@cart.items.empty?, :id => "cart" ) do %>
+19: 					<%= render(:partial => "cart" , :object => @cart) %>
+20: 				<% end %>
+21: 				
+
+    app/views/layouts/store.html.erb:18
+    app/controllers/users_controller.rb:7:in `index'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (70.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 14:08:42) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin/login
+Filter chain halted as [:authorize] rendered_or_redirected.
+Completed in 2691ms (DB: 1) | 302 Found [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 14:08:45) [GET]
+Rendering template within layouts/store
+Rendering admin/login
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #18 of app/views/layouts/store.html.erb:
+15: 		<div id="columns">
+16:  			<div id="side">
+17: 
+18: 				<% hidden_div_if(@cart.items.empty?, :id => "cart" ) do %>
+19: 					<%= render(:partial => "cart" , :object => @cart) %>
+20: 				<% end %>
+21: 				
+
+    app/views/layouts/store.html.erb:18
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (66.0ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 14:10:00) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin/login
+Filter chain halted as [:authorize] rendered_or_redirected.
+Completed in 14ms (DB: 1) | 302 Found [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 14:10:00) [GET]
+Rendering admin/login
+Completed in 7ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 14:17:16) [GET]
+Rendering admin/login
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 14:17:16) [GET]
+Rendering admin/login
+Completed in 7ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-11 14:17:21) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (4.0ms)
+Completed in 82ms (View: 43, DB: 1) | 200 OK [http://127.0.0.1/store]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-05-11 14:17:35) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin/login
+Filter chain halted as [:authorize] rendered_or_redirected.
+Completed in 19ms (DB: 1) | 302 Found [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 14:17:35) [GET]
+Rendering admin/login
+Completed in 16ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 14:17:43) [POST]
+  Parameters: {"name"=>"kamelury", "commit"=>"Login", "authenticity_token"=>"e7gU1DjxVGwQtjfIkY7/e0o4xywSdBiWGRLqK3fFEd8=", "password"=>"ruby123"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'kamelury') LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/products
+Completed in 83ms (DB: 1) | 302 Found [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-05-11 14:17:43) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+Completed in 86ms (View: 53, DB: 3) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 14:17:51) [GET]
+Rendering admin/login
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 14:34:22) [POST]
+  Parameters: {"name"=>"kamelury", "commit"=>"Login", "authenticity_token"=>"e7gU1DjxVGwQtjfIkY7/e0o4xywSdBiWGRLqK3fFEd8=", "password"=>"ruby123"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'kamelury') LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin
+Completed in 23ms (DB: 2) | 302 Found [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 14:34:22) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering admin/index
+Completed in 106ms (View: 71, DB: 2) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 14:34:31) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering admin/index
+Completed in 34ms (View: 2, DB: 2) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:9)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 14:39:34) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #18 of app/views/layouts/store.html.erb:
+15: 		<div id="columns">
+16:  			<div id="side">
+17: 
+18: 				<% hidden_div_if(@cart.items.empty?, :id => "cart" ) do %>
+19: 					<%= render(:partial => "cart" , :object => @cart) %>
+20: 				<% end %>
+21: 				
+
+    app/views/layouts/store.html.erb:18
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (76.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:8)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 14:51:20) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering admin/index
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:8)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 14:51:23) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering admin/index
+Completed in 34ms (View: 2, DB: 2) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:8)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 14:51:32) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+
+ActionView::TemplateError (undefined local variable or method `cart' for #<ActionView::Base:0xa1e1158>) on line #17 of app/views/layouts/store.html.erb:
+14:  		
+15: 		<div id="columns">
+16:  			<div id="side">
+17: 				<%if cart%>
+18: 				<% hidden_div_if(@cart.items.empty?, :id => "cart" ) do %>
+19: 					<%= render(:partial => "cart" , :object => @cart) %>
+20: 				<% end %>
+
+    app/views/layouts/store.html.erb:17
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:8)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 14:51:49) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+Completed in 52ms (View: 20, DB: 2) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 15:10:49) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+Completed in 52ms (View: 19, DB: 1) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 15:10:54) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+Completed in 49ms (View: 10, DB: 4) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 15:10:55) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+Completed in 41ms (View: 8, DB: 3) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 15:11:03) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin/login
+Filter chain halted as [:authorize] rendered_or_redirected.
+Completed in 14ms (DB: 1) | 302 Found [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 15:11:03) [GET]
+Rendering template within layouts/store
+Rendering admin/login
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 15:11:11) [POST]
+  Parameters: {"name"=>"kamelury", "commit"=>"Login", "authenticity_token"=>"UPM+e+HGKSJnN1q8JedmqECuIBEonhBONFf/KfFZrus=", "password"=>"ruby123"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'kamelury') LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin
+Completed in 20ms (DB: 3) | 302 Found [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 15:11:11) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+Completed in 40ms (View: 11, DB: 2) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 15:11:39) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin/login
+Filter chain halted as [:authorize] rendered_or_redirected.
+Completed in 17ms (DB: 3) | 302 Found [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 15:11:39) [GET]
+Rendering template within layouts/store
+Rendering admin/login
+Completed in 21ms (View: 17, DB: 1) | 200 OK [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 15:11:46) [POST]
+  Parameters: {"name"=>"kamelury", "commit"=>"Login", "authenticity_token"=>"AIXBeoPuP8A/TSSG/EPso5MQf9tAHkrCEwuvXXYhHjE=", "password"=>"ruby123"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'kamelury') LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin
+Completed in 17ms (DB: 1) | 302 Found [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 15:11:46) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+Completed in 38ms (View: 10, DB: 2) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-11 15:11:49) [GET]
+
+ActionController::RoutingError (No route matches "/orders" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-11 15:11:53) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering users/index
+Completed in 103ms (View: 85, DB: 3) | 200 OK [http://127.0.0.1/users]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 15:23:38) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+Completed in 36ms (View: 9, DB: 2) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#logout (for 127.0.0.1 at 2010-05-11 15:23:40) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin/login
+Completed in 16ms (DB: 1) | 302 Found [http://127.0.0.1/admin/logout]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 15:23:41) [GET]
+Rendering template within layouts/store
+Rendering admin/login
+Completed in 46ms (View: 42, DB: 1) | 200 OK [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-11 15:23:47) [POST]
+  Parameters: {"name"=>"kamelury", "commit"=>"Login", "authenticity_token"=>"AIXBeoPuP8A/TSSG/EPso5MQf9tAHkrCEwuvXXYhHjE=", "password"=>"ruby123"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'kamelury') LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin
+Completed in 16ms (DB: 0) | 302 Found [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 15:23:47) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+Completed in 35ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-11 15:41:20) [GET]
+
+ActionController::RoutingError (No route matches "/info/who_bought" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-11 15:41:24) [GET]
+
+ActionController::RoutingError (No route matches "/info/who_bought/2" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-11 15:42:14) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+Completed in 107ms (View: 9, DB: 70) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-05-11 15:42:16) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+Completed in 86ms (View: 28, DB: 3) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 02:21:58) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-14 02:23:42) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (7.0ms)
+Completed in 2824ms (View: 191, DB: 0) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-14 02:24:10) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"oLYhdMv1PDWwrY3Skyf0ZCQCcQCuI3TluotK1i9dliE=", "id"=>"4"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 4) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.0ms)
+Rendered store/_cart (19.0ms)
+Completed in 65ms (View: 31, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/4]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-14 02:24:19) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"oLYhdMv1PDWwrY3Skyf0ZCQCcQCuI3TluotK1i9dliE=", "id"=>"2"}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart (10.0ms)
+Completed in 41ms (View: 15, DB: 2) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-05-14 02:24:27) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (4.0ms)
+Completed in 56ms (View: 32, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-05-14 02:24:30) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"1yViLKDW6mY/VBWjr4EveCzpKK/zJxvrRCXTgUa//6w=", "id"=>"4", "_"=>""}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 4) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (9.0ms)
+Completed in 42ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/store/add_to_cart/4]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-14 02:24:40) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin/login
+Filter chain halted as [:authorize] rendered_or_redirected.
+Completed in 87ms (DB: 1) | 302 Found [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-14 02:24:40) [GET]
+Rendering template within layouts/store
+Rendering admin/login
+Completed in 59ms (View: 36, DB: 1) | 200 OK [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-14 02:24:46) [POST]
+  Parameters: {"name"=>"kamelury", "commit"=>"Login", "authenticity_token"=>"1yViLKDW6mY/VBWjr4EveCzpKK/zJxvrRCXTgUa//6w=", "password"=>"ruby123"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'kamelury') LIMIT 1[0m
+Redirected to http://127.0.0.1:3001/admin
+Completed in 116ms (DB: 1) | 302 Found [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-14 02:24:46) [GET]
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+Completed in 66ms (View: 18, DB: 3) | 200 OK [http://127.0.0.1/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 02:24:50) [GET]
+
+ActionController::RoutingError (No route matches "/orders" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-05-14 02:24:55) [GET]
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+Completed in 182ms (View: 145, DB: 3) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-14 02:24:57) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering users/index
+Completed in 101ms (View: 42, DB: 1) | 200 OK [http://127.0.0.1/users]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-05-14 02:24:59) [GET]
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/views/products/index.html.erb:14)
+Completed in 64ms (View: 28, DB: 3) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-05-14 02:25:17) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering products/show
+Completed in 58ms (View: 20, DB: 2) | 200 OK [http://127.0.0.1/products/3]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2010-05-14 02:25:24) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering products/edit
+Completed in 65ms (View: 28, DB: 2) | 200 OK [http://127.0.0.1/products/2/edit]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2010-05-14 02:25:32) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"1yViLKDW6mY/VBWjr4EveCzpKK/zJxvrRCXTgUa//6w=", "product"=>{"image_url"=>"/images/auto.jpg", "price"=>"29.95", "title"=>"Pragmatic Project Automation", "description"=>"<p>\r\n       <em>Pragmatic Project Automation</em> shows you how to improve the \r\n       consistency and repeatability of your project's procedures using \r\n       automation to reduce risk and errors.\r\n      </p>\r\n      <p>\r\n        Simply put, we're going to put this thing called a computer to work \r\n        for you doing the mundane (but important) project stuff. That means \r\n        you'll have more time and energy to do the really \r\n        exciting---and difficult---stuff, like writing quality code.\r\n      </p>"}, "id"=>"2"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Pragmatic Project Automation' AND "products".id <> 2) LIMIT 1[0m
+  [4;36;1mProduct Update (2.0ms)[0m   [0;1mUPDATE "products" SET "description" = '<p>
+ <em>Pragmatic Project Automation</em> shows you how to improve the 
+ consistency and repeatability of your project''s procedures using 
+ automation to reduce risk and errors.
+ </p>
+ <p>
+ Simply put, we''re going to put this thing called a computer to work 
+ for you doing the mundane (but important) project stuff. That means 
+ you''ll have more time and energy to do the really 
+ exciting---and difficult---stuff, like writing quality code.
+ </p>', "updated_at" = '2010-05-14 00:25:33' WHERE "id" = 2[0m
+Redirected to http://127.0.0.1:3001/products/2
+Completed in 55ms (DB: 4) | 302 Found [http://127.0.0.1/products/2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/Users/Kamila/My Documents/Aptana RadRails Workspace/handbag_eshop/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-05-14 02:25:33) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering products/show
+Completed in 49ms (View: 11, DB: 2) | 200 OK [http://127.0.0.1/products/2]
