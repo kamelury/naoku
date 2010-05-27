@@ -1,0 +1,46 @@
+<p>
+  <b>Name:</b>
+  <%=h @order.name %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%=h @order.address %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @order.email %>
+</p>
+
+<p>
+  <b>Pay type:</b>
+  <%=h @order.pay_type %>
+</p>
+<p>
+  <table>
+  <b>Ordered items:</b>
+     <tr>
+      <th>Title</th><th></th>
+	  <th>Quantity</th><th></th>
+	  <th>Price</th><th></th>
+     </tr>
+	 <%
+		@items.each do |item|
+		@product=  Product.find(item.product_id) %>
+     <tr>
+		<td><%=h @product.title %></td><td></td>
+		<td><%=h item.quantity %></td><td></td>
+		<td><%=h item.total_price %></td><td></td>
+	 </tr>
+		<br />
+   	<% end %>
+  </table>
+</p>
+<p>
+	<b>Total value:</b>
+		<%=h @total %>
+</p>
+
+<%= link_to 'Destroy', orders_path %> |
+<%= link_to 'Back', orders_path %>
