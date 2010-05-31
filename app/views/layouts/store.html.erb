@@ -2,30 +2,32 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
  <html>
  	<head>
- 		<title>Pragprog Books Online Store</title>
+ 		<title>The HandBag eShop</title>
  		<%= stylesheet_link_tag 'depot' , :media => "all" %>
 		<%= javascript_include_tag :defaults %>
  	</head>
  	<body id="store">
- 		<div id="banner">
- 		<%= image_tag("logo.png" ) %>
- 		<%= @page_title || "Pragmatic Bookshelf" %>
+ 		<div id="header">
+ 		<%= @page_title || "The HandBag eShop" %>
  		</div>
  		
-		<div id="columns">
- 			<div id="side">
+		<div id="content">
+ 			<div id="menu1">
 				
+				<ul id="menu2">				
+				<li id="m-home" class="active"><a href="/..">Home</a></li><br />
+				<!-- is "active" because where are here -->
+				<li id="m-checkout"><a href="checkout">Checkout</a></li><br />
+				<li id="m-contact"><a href="contact">Contact</a></li><br /> 
+				</ul>				
+			
 				<%if @cart%>
 					<% hidden_div_if(@cart.items.empty?, :id => "cart" ) do %>
 						<%= render(:partial => "cart" , :object => @cart) %>
 					<% end %>
 				<% end %>
 				
-				<a href="http://www....">Home</a><br />
-				<a href="http://www..../faq">Questions</a><br />
-				<a href="http://www..../news">News</a><br />
-				<a href="http://www..../contact">Contact</a><br /> 
-				
+
 				<% if session[:user_id] %>
 					<br />
 					<%= link_to 'Orders', :controller => 'orders' %><br />
@@ -34,6 +36,7 @@
 					<br />
 					<%= link_to 'Logout', :controller => :admin, :action => 'logout' %>
 				<% end %>
+				
 				 
 			</div>
 			 

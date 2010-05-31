@@ -1,0 +1,4 @@
+#Ignore tmp
+/tmp/
+#Mac trash
+.DS_Store

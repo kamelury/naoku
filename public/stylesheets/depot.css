@@ -1,4 +1,15 @@
 /* Global styles */
+
+body {
+	margin: 0;	/* para ignorar los valores por defecto de otros navegadores */
+	padding: 0; /* para ignorar los valores por defecto de otros navegadores */
+	}
+
+#content {
+	margin: 0 auto 0 auto;
+	width: 700px;
+}
+
 #notice {
 border: 2px solid red;
 padding: 1em;
@@ -6,9 +17,20 @@ margin-bottom: 2em;
 background-color: #f0f0f0 ;
 font: bold smaller sans-serif;
 }
+
+#main.table {
+	padding: 10em 1em 0em 3em;
+
+}
+
+
 /* Styles for products/index */
+#product-list {
+	padding: 1em 1em 1em 3em;
+}
+
 #product-list .list-title {
-color: #244 ;
+color: #442222 ;
 font-weight: bold;
 font-size: larger;
 }
@@ -20,62 +42,116 @@ height: 70px;
 font-size: x-small;
 text-align: right;
 padding-left: 1em;
+padding-right: 1em;
 }
-#product-list .list-line-even {
-background: #e0f8f8 ;
+
+#new_product {
+	padding: 1em 1em 1em 3em;
 }
-#product-list .list-line-odd {
-background: #f8b0f8 ;
+
+#show_orders {
+	padding: 1em 1em 1em 3em;
 }
+
 /* Styles for main page */
-#banner {
-background: #9c9 ;
-padding-top: 10px;
-padding-bottom: 10px;border-bottom: 2px solid;
-font: small-caps 40px/40px "Times New Roman", serif;
-color: #282 ;
-text-align: center;
+
+#header {
+	width: 505px;
+	height: 118px; /* 175 - 57 del padding = 118px */
+	padding-top: 57px;
+	margin: 0 auto 0 auto;
+	text-indent: -9999px; /* para que el texto no se vea */
+	background:url(../images/images_style/header.png)no-repeat;
 }
-#banner img {
-float: left;
+
+
+#menu1 {
+	list-style:none;
+	float: left;
+	padding-top: 2em;
+	padding-left: 0.25em;
+	padding-bottom: 30em;
+	width: 6em;
+	color: #E60066 ;
+
 }
-#columns {
-background: #141 ;
+
+#menu1 a {
+	padding-left: 1em;
+	padding-top: 0em;
+
 }
+
+#menu2 a {
+	display: block;
+	width: 85px;
+	height: 23px;
+	text-indent: -9999px;
+	overflow: hidden; /* bug de firefox */
+}
+
+#m-home a {
+	background:url(../images/images_style/home_d.png) no-repeat;
+}
+
+#m-checkout a {
+	background:url(../images/images_style/checkout_d.png) no-repeat;
+}
+
+#m-contact a {
+	background:url(../images/images_style/contact_d.png) no-repeat;
+}
+
+#menu1 li.active a, #menu1 li a:hover { 
+	background-position:0 -23px !important; /* para cambiar el aspecto de la pestana que hay debajo del puntero*/
+}
+
+
+
 #main {
-margin-left: 15em;
-padding-top: 4ex;
-padding-left: 2em;
-background: white;
+	padding: 1em 3em 26em 7.75em;
+/*	padding: 30px 130px; */
+	text-align:justify;
+	background:url(../images/images_style/bg_body.png)no-repeat;
 }
-#side {
-float: left;
-padding-top: 1em;
-padding-left: 1em;
-padding-bottom: 1em;
-width: 14em;
-background: #141 ;
+
+#main a{
+	padding-left: 5em;
 }
-#side a {
-color: #bfb ;
-font-size: small;
+
+#list_orders {
+	padding: -10em -10em -10em -10em; 
 }
+
+
 h1 {
-font: 150% sans-serif;
-color: #226 ;
-border-bottom: 3px dotted #77d ;
+	margin-left: 2em;
+	font: 150% sans-serif;
+	/* color: #773311 ;
+	border-bottom: 2px dotted #773311 ; */
+	text-indent: -9999px; /* para que el texto no se vea */
+	background:url(../images/images_style/title_prod.png)no-repeat;
+	width: 157px;
+	height: 34px;
 }
+
 /* An entry in the store catalog */
+
+#store {
+	padding-left: 1em;
+}
 #store .entry {
-border-bottom: 1px dotted #77d ;
+	border-bottom: 1px dotted #773311 ;
+	margin-left: 1.75em;
 }
 #store .title {
 font-size: 120%;
 font-family: sans-serif;
 }
 #store .entry img {
-width: 75px;
-float: left;
+	width: 75px;
+	float: left;
+	padding: 1em 1em 1em 1em;
 }
 #store .entry h3 {
 margin-bottom: 2px;
@@ -91,41 +167,50 @@ margin-bottom: 0.8em;
 position: relative;
 }
 #store .entry .price {
-color: #44a;
+color: #442222;
 font-weight: bold;
 margin-right: 2em;
 }
 #store .entry form, #store .entry form div {
 display: inline;
 }
+
 /* Styles for the cart in the main page and the sidebar */
 .cart-title {
-font: 120% bold;
+	font: 120% bold;
+	margin-top: 1em;
 }
 .item-price, .total-line {
 text-align: right;
 }
 .total-line .total-cell {
 font-weight: bold;
-border-top: 1px solid #595 ;
+border-top: 1px solid #773311 ;
 }
+
+
 /* Styles for the cart in the sidebar */
 #cart, #cart table {
-font-size: smaller;
-color: white;
+color: #442222 ;
+padding-left: 1.25em;
+font-size: 90%;
 }
 #cart table {
-border-top: 1px dotted #595 ;
-border-bottom: 1px dotted #595 ;
+border-top: 1px dotted #773311 ;
+border-bottom: 1px dotted #773311 ;
 margin-bottom: 10px;
 }
 /* Styles for order form */
+.depot-form {
+	padding: 1em 3em 1em 4.75em;
+
+}
 .depot-form fieldset {
 background: #efe;
 }
 .depot-form legend {
 color: #dfd ;
-background: #141 ;
+background: #442222 ;
 font-family: sans-serif;
 padding: 0.2em 1em;
 }
