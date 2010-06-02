@@ -15,10 +15,8 @@
  			<div id="menu1">
 				
 				<ul id="menu2">				
-				<li id="m-home" class="active"><a href="/..">Home</a></li><br />
-				<!-- is "active" because where are here -->
-				<li id="m-checkout"><a href="checkout">Checkout</a></li><br />
-				<li id="m-contact"><a href="contact">Contact</a></li><br /> 
+				<li id="m-home"><%= link_to 'Store', :controller => 'store' %><br />
+				<li id="m-contact"><%= link_to 'Contact', :controller => 'contact' %><br /> 
 				</ul>				
 			
 				<%if @cart%>
@@ -27,16 +25,17 @@
 					<% end %>
 				<% end %>
 				
-
+				<ul id="menu3">
 				<% if session[:user_id] %>
-					<br />
-					<%= link_to 'Orders', :controller => 'orders' %><br />
-					<%= link_to 'Products', :controller => 'products' %><br />
-					<%= link_to 'Users', :controller => 'users' %><br />
-					<br />
-					<%= link_to 'Logout', :controller => :admin, :action => 'logout' %>
-				<% end %>
 				
+					<p>Admin Panel</p>
+					<li id="m-orders"><%= link_to 'Orders', :controller => 'orders' %><br />
+					<li id="m-products"><%= link_to 'Products', :controller => 'products' %><br />
+					<li id="m-users"><%= link_to 'Users', :controller => 'users' %><br />
+					<br />
+					<li id="m-logout"><%= link_to 'Logout', :controller => :admin, :action => 'logout' %>
+				<% end %>
+				</ul>				
 				 
 			</div>
 			 
@@ -47,6 +46,14 @@
 				
 				<%= yield :layout %>
 			</div>
+				<div id="footer">
+					<p> Web Page Created by Kamila & Helena </p>
+					<p> Developed with </p> 
+					<p id="rails"> Rails <a href="http://rubyonrails.org/"></p>
+				</div>
 		</div>
+		
+
+		
  	</body>
 </html>

@@ -3,8 +3,12 @@ class StoreController < ApplicationController
   before_filter :find_cart, :except => :empty_cart
   
   def index
-    @products = Product.find_products_for_sale
     @cart = find_cart
+    if params[:search]
+      @products = Product.find(:all, :conditions => [ 'title LIKE ?',"%#{params[:search]}%" ])
+    else
+      @products = Product.find(:all)
+    end
   end
 
   def add_to_cart

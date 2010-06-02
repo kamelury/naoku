@@ -1,4 +1,4 @@
-<h1>Your Pragmatic Catalog</h1>
+<h1>Handbags Catalog</h1>
 
 <% for product in @products -%>
 	<div class="entry">
@@ -13,3 +13,10 @@
 	
 	</div>
 <% end %>
+<p id="search"><% form_tag :method => 'get' do%>
+	<p>
+	<%= text_field_tag :search, params[:search] %>
+	<%= submit_tag "Search", :name => nil %>
+	</p> 
+<%end%>
+</p>

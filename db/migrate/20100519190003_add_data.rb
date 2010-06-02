@@ -21,7 +21,7 @@ class AddData < ActiveRecord::Migration
 
     Product.create(:title => 'Blue Bag',
     :description => 
-    %{<p>Bolso de mano fabricado en piel bovina. Incluye bandolera interior para colgar. Medidas: 22 x 28 x 11 cms.
+    %{<p>Handbag made of bovine leather. Includes interior strap for hanging. Dimensions: 22 x 28 x 11 cms.
       </p>},
     :image_url =>   '/images/blue.jpg',    
     :price => 29.95)
