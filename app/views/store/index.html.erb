@@ -1,8 +1,8 @@
-	<p id="search"><% form_tag :method => 'get' do%>
-	<%= text_field_tag :search, params[:search] %>
+	<div class="search"><% form_tag :method => 'get' do%>
+	<div class="search"><%= text_field_tag :search, params[:search] %>
 	<%= submit_tag "Search", :name => nil %>
 	<%end%>
-	</p>
+	</div></div>
 <h1>Handbags Catalog</h1>
 
 <% for product in @products -%>
@@ -10,11 +10,13 @@
 		<%= image_tag(product.image_url) %>
 		<h3><%=h product.title %></h3>
 		<%= product.description %>
-		<span class="price" ><%= number_to_currency(product.price) %></span>
+		<p class="price" ><%= number_to_currency(product.price, :unit => "&#8364;") %></p>
 		
+		<div class="add_button">
 		<% form_remote_tag :url => { :action => :add_to_cart, :id => product } do %>
-			<%= submit_tag "Add to Cart" %>
+			<div class="add_button"><%= submit_tag "Add to Cart" %>
 		<% end %>
+		</div></div>
 	
 	</div>
 <% end %>

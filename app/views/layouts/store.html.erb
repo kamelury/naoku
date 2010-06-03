@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" >
  <html>
  	<head>
  		<title>The HandBag eShop</title>
@@ -29,11 +29,11 @@
 				<% if session[:user_id] %>
 				
 					<p>Admin Panel</p>
-					<li id="m-orders"><%= link_to 'Orders', :controller => 'orders' %><br />
-					<li id="m-products"><%= link_to 'Products', :controller => 'products' %><br />
-					<li id="m-users"><%= link_to 'Users', :controller => 'users' %><br />
+					<li id="m-orders"><%= link_to 'Orders', :controller => 'orders' %></li><br />
+					<li id="m-products"><%= link_to 'Products', :controller => 'products' %></li><br />
+					<li id="m-users"><%= link_to 'Users', :controller => 'users' %></li><br />
 					<br />
-					<li id="m-logout"><%= link_to 'Logout', :controller => :admin, :action => 'logout' %>
+					<li id="m-logout"><%= link_to 'Logout', :controller => :admin, :action => 'logout' %></li>
 				<% end %>
 				</ul>				
 				 

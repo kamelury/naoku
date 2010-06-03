@@ -65,11 +65,17 @@ font: bold smaller sans-serif;
 }
 /* Styles for main page */
 
+ul {
+	list-style: none;
+}
+
+a {
+	color: #442222 !important;
+}
 
 #menu1 {
 	margin: 1em 1em 15em 1em;
 	padding: 1em 1em 1em 1em;
-	list-style:none;
 	float: left;
 	width: 10em; /* anchura del menu */
 }
@@ -82,7 +88,6 @@ font: bold smaller sans-serif;
 #menu1 p {
 	font: georgia bold;
 	margin: 1em auto 0.5em auto;
-	color: #442222
 	padding: 0em;
 	font-size: 125%;
 	color: #700033 ;
@@ -114,17 +119,15 @@ font: bold smaller sans-serif;
 }
 
 #menu3 {
-	list-style:none;
 	float: left;
 	width: 7em; /* anchura del menu */
 	margin: 1em 2em 1em 1em;
 	padding: 1em 1em 1em 1em;
 	font: georgia bold;
-
 }
 
-a {
-	color: #442222 !important;
+#menu3 li {
+	margin: -0.25em -0.25em -0.25em 0.5em;
 }
 
 active a, a:hover { 
@@ -135,7 +138,6 @@ active a, a:hover {
 #main {
 	margin: 0em 1em auto 14em;
 	padding: 1em 1em 1em 1em;
-/*	padding: 30px 130px; */
 	text-align:justify;
 }
 
@@ -254,7 +256,7 @@ padding-right: 1em;
 
 #store .entry {
 	border-bottom: 1px dotted #773311 ;
-	margin: 1em 1em 1em 1em;
+	margin: 1em 2em 2em 2em;
 }
 #store .title {
 font-size: 120%;
@@ -263,8 +265,7 @@ font-family: sans-serif;
 #store .entry img {
 	width: 75px;
 	float: left;
-	padding: 1em 1em 1em 1em;
-	margin-bottom: 0em;
+	padding: 0.5em 1em 0.4em 0em;
 }
 #store .entry h3 {
 margin-bottom: 2px;
@@ -274,23 +275,23 @@ color: #227 ;
 margin-top: 0px;
 margin-bottom: 0.8em;
 padding: 0.5em 0.5em 0.5em 6.5em;
+position: relative;
 
 }
 #store .entry .price-line {
 }
 #store .entry .add-to-cart {
-position: relative;
+
 }
 #store .entry .price {
 color: #442222;
 font-weight: bold;
-margin-right: 2em;
-
+margin: auto 1em auto auto;
 }
+
 #store .entry form, #store .entry form div {
 display: inline;
 }
-
 
 
 
