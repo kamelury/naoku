@@ -9,4 +9,10 @@ class ContactController < ApplicationController
     flash[:notice] = "Email was succesfully sent."
     redirect_to :action => "index"
   end
+  
+  protected
+  
+  def authorize
+  end
+
 end
