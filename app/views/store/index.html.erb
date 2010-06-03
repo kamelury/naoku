@@ -1,3 +1,8 @@
+	<p id="search"><% form_tag :method => 'get' do%>
+	<%= text_field_tag :search, params[:search] %>
+	<%= submit_tag "Search", :name => nil %>
+	<%end%>
+	</p>
 <h1>Handbags Catalog</h1>
 
 <% for product in @products -%>
@@ -13,10 +18,3 @@
 	
 	</div>
 <% end %>
-<p id="search"><% form_tag :method => 'get' do%>
-	<p>
-	<%= text_field_tag :search, params[:search] %>
-	<%= submit_tag "Search", :name => nil %>
-	</p> 
-<%end%>
-</p>

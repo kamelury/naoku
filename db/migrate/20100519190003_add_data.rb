@@ -13,32 +13,32 @@ class AddData < ActiveRecord::Migration
 
     Product.create(:title => 'Red Bag',
     :description => 
-    %{<p>Long handle bag made of synthetic leather. Dimensions: 35 x 33 x 9 cm.
-	</p>},
+    %{Long handle bag made of synthetic leather. Dimensions: 35 x 33 x 9 cm.
+	},
     :image_url => '/images/red.jpg',
     :price => 27.75)
 	
 
     Product.create(:title => 'Blue Bag',
     :description => 
-    %{<p>Handbag made of bovine leather. Includes interior strap for hanging. Dimensions: 22 x 28 x 11 cms.
-      </p>},
+    %{Handbag made of bovine leather. Includes interior strap for hanging. Dimensions: 22 x 28 x 11 cms.
+	},
     :image_url =>   '/images/blue.jpg',    
     :price => 29.95)
 
 
     Product.create(:title => 'Black Bag',
     :description => 
-    %{<p>Long handle bag made of skin. Including that based portfolio - Removable inner wallet. Dimensions: 25 x 36 12 cms.
-	</p>},
+    %{Long handle bag made of skin. Including that based portfolio - Removable inner wallet. Dimensions: 25 x 36 12 cms.
+	},
     :image_url => '/images/black.jpg',
     :price => 27.75)
 	
 	
     Product.create(:title => 'Yellow Bag',
-      :description =>
-      %{<p>Long handle bag made of synthetic leather. Dimensions: 44 x 29 x 12 cms.
-	  </p>},
+	:description =>
+	%{Long handle bag made of synthetic leather. Dimensions: 44 x 29 x 12 cms.
+	},
     :image_url => '/images/yellow.jpg',
     :price => 28.50)
 

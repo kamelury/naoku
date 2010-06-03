@@ -25256,3 +25256,635 @@ Processing ContactController#index (for 127.0.0.1 at 2010-06-03 12:58:28) [GET]
 Rendering template within layouts/store
 Rendering contact/index
 Completed in 12ms (View: 9, DB: 1) | 200 OK [http://localhost/contact]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:10:41) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.1ms)
+Completed in 33ms (View: 23, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-06-03 13:10:44) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE=", "id"=>"41", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 41) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (5.5ms)
+Rendered store/_cart (8.4ms)
+Completed in 431ms (View: 68, DB: 1) | 200 OK [http://localhost/store/add_to_cart/41]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-06-03 13:10:48) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE=", "id"=>"42", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 42) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (4.0ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (6.7ms)
+Completed in 22ms (View: 9, DB: 1) | 200 OK [http://localhost/store/add_to_cart/42]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-06-03 13:10:51) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE=", "id"=>"41", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 41) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (4.0ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (6.7ms)
+Completed in 22ms (View: 9, DB: 1) | 200 OK [http://localhost/store/add_to_cart/41]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-06-03 13:10:54) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE=", "id"=>"43", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 43) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (3.9ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (7.0ms)
+Completed in 22ms (View: 9, DB: 1) | 200 OK [http://localhost/store/add_to_cart/43]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#checkout (for 127.0.0.1 at 2010-06-03 13:11:01) [POST]
+  Parameters: {"authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE="}
+Rendering template within layouts/store
+Rendering store/checkout
+Rendered store/_cart_item (5.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (8.7ms)
+Completed in 78ms (View: 26, DB: 1) | 200 OK [http://localhost/store/checkout]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-06-03 13:11:10) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE=", "id"=>"41", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 41) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (4.0ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (7.3ms)
+Completed in 22ms (View: 9, DB: 1) | 200 OK [http://localhost/store/add_to_cart/41]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-06-03 13:11:11) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE=", "id"=>"41", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 41) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (4.0ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (7.3ms)
+Completed in 22ms (View: 9, DB: 1) | 200 OK [http://localhost/store/add_to_cart/41]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-06-03 13:11:12) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE=", "id"=>"42", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 42) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (4.0ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (7.2ms)
+Completed in 22ms (View: 9, DB: 1) | 200 OK [http://localhost/store/add_to_cart/42]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-06-03 13:11:13) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE=", "id"=>"42", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 42) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (76.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (79.9ms)
+Completed in 95ms (View: 82, DB: 1) | 200 OK [http://localhost/store/add_to_cart/42]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-06-03 13:11:13) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE=", "id"=>"42", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 42) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (4.2ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (7.5ms)
+Completed in 23ms (View: 10, DB: 1) | 200 OK [http://localhost/store/add_to_cart/42]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-06-03 13:11:14) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE=", "id"=>"42", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 42) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (4.0ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (7.2ms)
+Completed in 22ms (View: 10, DB: 1) | 200 OK [http://localhost/store/add_to_cart/42]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:11:16) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.6ms)
+Completed in 36ms (View: 24, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-06-03 13:11:19) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE=", "id"=>"41", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 41) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (4.0ms)
+Rendered store/_cart_item (0.5ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (7.3ms)
+Completed in 22ms (View: 9, DB: 1) | 200 OK [http://localhost/store/add_to_cart/41]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-06-03 13:11:26) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE=", "id"=>"41", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 41) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (4.2ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.5ms)
+Rendered store/_cart (7.7ms)
+Completed in 98ms (View: 86, DB: 1) | 200 OK [http://localhost/store/add_to_cart/41]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#index (for 127.0.0.1 at 2010-06-03 13:11:31) [GET]
+Rendering template within layouts/store
+Rendering contact/index
+Completed in 19ms (View: 16, DB: 1) | 200 OK [http://localhost/contact]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:11:33) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.6ms)
+Completed in 36ms (View: 24, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-06-03 13:11:44) [GET]
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Redirected to http://localhost:3000/admin/login
+Filter chain halted as [:authorize] rendered_or_redirected.
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-03 13:11:44) [GET]
+Rendering template within layouts/store
+Rendering admin/login
+Completed in 16ms (View: 5, DB: 1) | 200 OK [http://localhost/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-03 13:11:47) [POST]
+  Parameters: {"name"=>"kamelury", "commit"=>"Login", "authenticity_token"=>"aKS67qh4WL0GEzBLhI7yZB5+zncvC1k4X7P7/HRBDIE=", "password"=>"ruby123"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'kamelury') LIMIT 1[0m
+Redirected to http://localhost:3000/admin
+Completed in 43ms (DB: 1) | 302 Found [http://localhost/admin/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-06-03 13:11:47) [GET]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (5.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+Completed in 123ms (View: 22, DB: 6) | 200 OK [http://localhost/admin]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:11:50) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.5ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.7ms)
+Completed in 37ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#index (for 127.0.0.1 at 2010-06-03 13:11:54) [GET]
+Rendering template within layouts/store
+Rendering contact/index
+Completed in 19ms (View: 17, DB: 1) | 200 OK [http://localhost/contact]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:11:56) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.6ms)
+Completed in 37ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:15:12) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.5ms)
+Completed in 42ms (View: 30, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:17:37) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.5ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.7ms)
+Completed in 36ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:18:36) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.5ms)
+Completed in 42ms (View: 30, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:18:57) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.5ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.7ms)
+Completed in 43ms (View: 31, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:20:37) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.5ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.6ms)
+Completed in 93ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:20:51) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.6ms)
+Completed in 37ms (View: 25, DB: 2) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:21:03) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.5ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.8ms)
+Completed in 37ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:21:55) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.6ms)
+Completed in 37ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#index (for 127.0.0.1 at 2010-06-03 13:22:03) [GET]
+Rendering template within layouts/store
+Rendering contact/index
+Completed in 19ms (View: 16, DB: 1) | 200 OK [http://localhost/contact]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:22:05) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.7ms)
+Completed in 38ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#index (for 127.0.0.1 at 2010-06-03 13:22:29) [GET]
+Rendering template within layouts/store
+Rendering contact/index
+Completed in 19ms (View: 16, DB: 1) | 200 OK [http://localhost/contact]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:22:32) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.6ms)
+Completed in 36ms (View: 24, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#index (for 127.0.0.1 at 2010-06-03 13:22:34) [GET]
+Rendering template within layouts/store
+Rendering contact/index
+Completed in 23ms (View: 19, DB: 1) | 200 OK [http://localhost/contact]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:22:37) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.6ms)
+Completed in 37ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:23:48) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.5ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.7ms)
+Completed in 49ms (View: 35, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:25:21) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.6ms)
+Completed in 48ms (View: 36, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:26:22) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.5ms)
+Completed in 42ms (View: 30, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-03 13:27:18) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart_item (0.4ms)
+Rendered store/_cart (3.6ms)
+Completed in 63ms (View: 31, DB: 18) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-06-03 13:28:08) [GET]
+  [4;36;1mUser Load (348.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.9ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/views/products/index.html.erb:14)
+Completed in 393ms (View: 27, DB: 350) | 200 OK [http://localhost/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-06-03 13:28:13) [GET]
+  Parameters: {"id"=>"41"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 41) [0m
+Rendering template within layouts/store
+Rendering products/show
+Completed in 44ms (View: 27, DB: 1) | 200 OK [http://localhost/products/41]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#index (for 127.0.0.1 at 2010-06-03 13:28:31) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mOrder Load (77.7ms)[0m   [0mSELECT * FROM "orders" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering orders/index
+Completed in 129ms (View: 33, DB: 79) | 200 OK [http://localhost/orders]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#index (for 127.0.0.1 at 2010-06-03 13:29:39) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mOrder Load (1.1ms)[0m   [0mSELECT * FROM "orders" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering orders/index
+Completed in 44ms (View: 25, DB: 2) | 200 OK [http://localhost/orders]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#index (for 127.0.0.1 at 2010-06-03 13:29:45) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mOrder Load (1.2ms)[0m   [0mSELECT * FROM "orders" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering orders/index
+Completed in 45ms (View: 26, DB: 2) | 200 OK [http://localhost/orders]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#index (for 127.0.0.1 at 2010-06-03 13:30:52) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mOrder Load (1.2ms)[0m   [0mSELECT * FROM "orders" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering orders/index
+Completed in 108ms (View: 33, DB: 2) | 200 OK [http://localhost/orders]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-06-03 13:31:02) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/views/products/index.html.erb:14)
+Completed in 42ms (View: 24, DB: 2) | 200 OK [http://localhost/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-06-03 13:31:05) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering users/index
+Completed in 31ms (View: 14, DB: 2) | 200 OK [http://localhost/users]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-06-03 13:31:26) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/views/products/index.html.erb:14)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/views/products/index.html.erb:14)
+Completed in 41ms (View: 25, DB: 1) | 200 OK [http://localhost/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/helenatxu/Documents/Universidad/Proyecto_TiendaOnline/handbag_eshop_with_orders_view/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#index (for 127.0.0.1 at 2010-06-03 13:31:28) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mOrder Load (1.1ms)[0m   [0mSELECT * FROM "orders" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering orders/index
+Completed in 47ms (View: 28, DB: 2) | 200 OK [http://localhost/orders]
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddData (20100519190003)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mProduct Delete all (0.5ms)[0m   [0mDELETE FROM "products" WHERE 1=1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100519190003'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("line_items")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("orders")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("sessions")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (1.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddTestData (20080601000003)
+Migrating to CreateProducts (20100420220304)
+Migrating to AddPriceToProduct (20100420221431)
+Migrating to CreateSessions (20100423185449)
+Migrating to CreateOrders (20100510194150)
+Migrating to CreateLineItems (20100510194403)
+Migrating to CreateUsers (20100511103105)
+Migrating to AddData (20100519190003)
+  [4;35;1mProduct Delete all (0.4ms)[0m   [0mDELETE FROM "products" WHERE 1=1[0m
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Red Bag') LIMIT 1[0m
+  [4;35;1mProduct Create (0.2ms)[0m   [0mINSERT INTO "products" ("image_url", "updated_at", "title", "price", "description", "created_at") VALUES('/images/red.jpg', '2010-06-03 11:34:09', 'Red Bag', 27.75, 'Long handle bag made of synthetic leather. Dimensions: 35 x 33 x 9 cm.
+	', '2010-06-03 11:34:09')[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Blue Bag') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("image_url", "updated_at", "title", "price", "description", "created_at") VALUES('/images/blue.jpg', '2010-06-03 11:34:09', 'Blue Bag', 29.95, 'Handbag made of bovine leather. Includes interior strap for hanging. Dimensions: 22 x 28 x 11 cms.
+	', '2010-06-03 11:34:09')[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Black Bag') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("image_url", "updated_at", "title", "price", "description", "created_at") VALUES('/images/black.jpg', '2010-06-03 11:34:09', 'Black Bag', 27.75, 'Long handle bag made of skin. Including that based portfolio - Removable inner wallet. Dimensions: 25 x 36 12 cms.
+	', '2010-06-03 11:34:09')[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Yellow Bag') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("image_url", "updated_at", "title", "price", "description", "created_at") VALUES('/images/yellow.jpg', '2010-06-03 11:34:09', 'Yellow Bag', 28.5, 'Long handle bag made of synthetic leather. Dimensions: 44 x 29 x 12 cms.
+	', '2010-06-03 11:34:09')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100519190003')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("line_items")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("orders")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("sessions")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
