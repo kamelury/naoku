@@ -183,7 +183,7 @@ color: #442222 ;
 }
 
 #search {
-	margin: 1em auto auto 30em;
+	margin: 2em auto 2em auto;
 }
 
 /* Styles for products/index */
@@ -293,7 +293,9 @@ margin: auto 1em auto auto;
 display: inline;
 }
 
-
+#form_contact{
+border-bottom: 1px dotted #773311 ;
+}
 
 /* Styles for the cart in the main page and the sidebar */
 .cart-title {
@@ -320,10 +322,10 @@ border-top: 1px dotted #773311 ;
 border-bottom: 1px dotted #773311 ;
 margin-bottom: 10px;
 }
+
 /* Styles for order form */
 .depot-form {
 	padding: 1em 3em 1em 4.75em;
-
 }
 .depot-form fieldset {
 background: #efe;
@@ -337,12 +339,13 @@ padding: 0.2em 1em;
 .depot-form label {
 width: 5em;
 float: left;
-text-align: right;
+text-align: left;
 margin-right: 0.5em;
+padding-left: 0.5em;
 display: block;
 }
 .depot-form .submit {
-margin-left: 5.5em;
+margin-left: 8.5em;
 }
 
 

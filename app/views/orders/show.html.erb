@@ -32,7 +32,7 @@
      <tr>
 		<td><%=h @product.title %></td>
 		<td><%=h item.quantity %></td>
-		<td><%=h item.total_price %></td>
+		<td><%=number_to_currency(item.total_price, :unit => "&#8364;") %></td>
 	 </tr>
 		<br />
    	<% end %>
@@ -40,9 +40,8 @@
 </p>
 <p>
 	<b>Total value:</b>
-		<%=h @total %>
+		<%= number_to_currency( @total, :unit => "&#8364;") %>
 </p>
 
-<%= link_to 'Destroy', orders_path %> |
 <%= link_to 'Back', orders_path %>
 </div>
