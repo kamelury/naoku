@@ -5,7 +5,7 @@ class StoreController < ApplicationController
   def index
     @cart = find_cart
     if params[:search]
-      @products = Product.find(:all, :conditions => [ 'title LIKE ?',"%#{params[:search]}%" ])
+      @products = Product.find(:all, :conditions => [ 'title ILIKE ?',"%#{params[:search]}%" ])
     else
       @products = Product.find(:all)
     end
