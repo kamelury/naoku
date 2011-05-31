@@ -3,20 +3,23 @@
 	<%= submit_tag "Search", :name => nil %>
 	<%end%>
 	</div></div>
-<h1>Handbags Catalog</h1>
+<h1>Items</h1>
 
 <% for product in @products -%>
 	<div class="entry">
-		<%= image_tag(product.image_url) %>
-		<h3><%=h product.title %></h3>
-		<%= product.description %>
-		<p class="price" ><%= number_to_currency(product.price, :unit => "&#8364;") %></p>
-		
-		<div class="add_button">
-		<% form_remote_tag :url => { :action => :add_to_cart, :id => product } do %>
-			<div class="add_button"><%= submit_tag "Add to Cart" %>
-		<% end %>
-		</div></div>
+		<div class="entry_left">
+			<%= image_tag(product.image_url) %>
+		</div>
+		<div class="entry_right">
+			<h3><%=h product.title %></h3>
+			<%= product.description %>		
+			<div class="add_button">
+				<% form_remote_tag :url => { :action => :add_to_cart, :id => product } do %>
+				<div class="add_button">I can offer: <%= text_field_tag :price, " ",{:size=>"10"} %> $ <%= submit_tag ">>>" %>
+					<% end %>
+				</div>
+			</div>
+		</div>
 	
 	</div>
 <% end %>

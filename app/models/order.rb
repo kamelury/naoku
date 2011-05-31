@@ -7,10 +7,11 @@ class Order < ActiveRecord::Base
    [ "Purchase order" , "po" ]
   ]
   
-  validates_presence_of :name, :address, :email, :pay_type
-  validates_inclusion_of :pay_type, :in =>
-  PAYMENT_TYPES.map {|disp, value| value}
-  
+  validates_presence_of :name, :email
+  validates_format_of   :email,
+                        :with       => /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i,
+                        :message    => 'Email must be valid'
+                        
   has_many :line_items
   
   def add_line_items_from_cart(cart)
