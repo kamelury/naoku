@@ -1,10 +1,18 @@
-	<div class="search"><% form_tag :method => 'get' do%>
+	
+<p> This is the list of the things I am willing to sell. Note that it is not a store.
+	<br />It was created for presentation purposes only. 
+	<br /><br />
+	<span class="lower">
+	If you are interested in any of the items click <span class="green">I want it</span>.<br />
+	You can inform me about the items you like by clicking <span class="green">send</span> and filling the form.
+	</span>
+	</p>
+<div class="search"><% form_tag :method => 'get' do%>
 	<div class="search"><%= text_field_tag :search, params[:search] %>
 	<%= submit_tag "Search", :name => nil %>
 	<%end%>
 	</div></div>
-<h1>Items</h1>
-
+	<h1> </h1>
 <% for product in @products -%>
 	<div class="entry">
 		<div class="entry_left">
@@ -13,9 +21,10 @@
 		<div class="entry_right">
 			<h3><%=h product.title %></h3>
 			<%= product.description %>		
+			<div><b>Status:</b>  <%=h Product::STATUSES[product.status][0] %></div>
 			<div class="add_button">
 				<% form_remote_tag :url => { :action => :add_to_cart, :id => product } do %>
-				<div class="add_button">I can offer: <%= text_field_tag :price, " ",{:size=>"10"} %> $ <%= submit_tag ">>>" %>
+				<div class="add_button"> <%= submit_tag "I want it" %>
 					<% end %>
 				</div>
 			</div>

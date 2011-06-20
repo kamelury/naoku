@@ -6,4 +6,4 @@ page[:cart].visual_effect :blind_down if @cart.total_items == 1
 
 page[:current_item].visual_effect :highlight, 
                                   :startcolor => "#FEF6F6" , 
-                                  :endcolor => "#700033" 
+                                  :endcolor => "#579F15" 

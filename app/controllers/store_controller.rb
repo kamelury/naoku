@@ -8,7 +8,7 @@ class StoreController < ApplicationController
       @products = Product.find(:all, :conditions => [ 'title LIKE ?',"%#{params[:search]}%" ])
       #@products = Product.find(:all, :conditions => [ 'title ILIKE ?',"%#{params[:search]}%" ]) #wersja z ignore case
     else
-      @products = Product.find(:all)
+      @products = Product.find(:all, :conditions => [ "status IN (1,2,3)" ], :order => "status DESC")
     end
   end
 
@@ -46,7 +46,7 @@ class StoreController < ApplicationController
     @order.add_line_items_from_cart(@cart)
     if @order.save
       session[:cart] = nil
-      redirect_to_index("Thank you for your order" )
+      redirect_to_index("Thank you for sending me your list. I will reply shortly." )
     else
       render :action => :checkout
     end

@@ -17,6 +17,8 @@
 body {
 	margin: 0;	/* para ignorar los valores por defecto de otros navegadores */
 	padding: 0; /* para ignorar los valores por defecto de otros navegadores */
+	font-family: 'Trebuchet MS', sans-serif;
+	color: #444;
 	}
 
 #content {
@@ -31,11 +33,13 @@ body {
 }
 
 #notice {
-border: 2px solid red;
+border: 2px solid #38640B;
 padding: 1em;
 margin-bottom: 2em;
-background-color: #f0f0f0 ;
+margin-right: 2em;
+background-color: #FEFFB1;
 font: bold smaller sans-serif;
+text-align: center;
 }
 
 
@@ -71,7 +75,7 @@ ul {
 }
 
 a {
-	color: #442222 !important;
+	color: #444;
 }
 
 p {
@@ -92,11 +96,10 @@ p {
 }
 
 #menu1 p {
-	font-family: Georgia bold;
 	margin: 1em auto 0.5em auto;
 	padding: 0em;
-	font-size: 125%;
-	color: #700033 ;
+	font-size: 13px;
+	color: #579F15 ;
 	border: 1px dotted #442222 ;
 }
 
@@ -121,7 +124,7 @@ p {
 }
 
 #menu2 li.active a, #menu1 li a:hover { 
-	background-position:0 -23px !important; /* para cambiar el aspecto de la pestana que hay debajo del puntero*/
+	background-position:0 -23px; /* para cambiar el aspecto de la pestana que hay debajo del puntero*/
 }
 
 #menu3 {
@@ -129,15 +132,25 @@ p {
 	width: 7em; /* anchura del menu */
 	margin: 1em 2em 1em 1em;
 	padding: 1em 1em 1em 1em;
-	font-family: Georgia bold;
+	font-family: 'Trebuchet MS', sans-serif;
 }
 
 #menu3 li {
 	margin: -0.25em -0.25em -0.25em 0.5em;
 }
 
+#menu3 p {
+	font-size: larger;
+}
+.green {
+	color: #579F15;
+}
+
+.lower{
+	font-size: 13px;
+}
 active a, a:hover { 
-	color: #cc5533 !important;
+	color: #579F15 !important;
 	font-size: 105% !important;
 }
 
@@ -148,8 +161,8 @@ active a, a:hover {
 }
 
 h1 {
-	font: 150% georgia;
-	color: #700033 ;
+	font: 150%;
+	color: #62AB14 ;
 	border-bottom: 1px dotted #442222 ;
 	margin: 0.5em 1em 1em 0em;
 }
@@ -160,13 +173,14 @@ h1 {
 
 
 th {
-font: 145% Georgia;
-color: #A10048 ;
+font: 145%;
+color: #579F15 ;
 }
 
 td {
-font: 93% Georgia;
-color: #442222 ;
+font: 93%;
+color: #444;
+	} ;
 
 }
 
@@ -177,7 +191,7 @@ color: #442222 ;
 
 }
 #t_users td {
-	font: 93% Georgia;
+	font: 93%;
 	height:35px;
 	padding-top:0em;
 	padding-bottom:0em;
@@ -199,7 +213,7 @@ color: #442222 ;
 }
 
 #product-list .list-title {
-color: #A10048 ;
+color: #579F15 ;
 font-weight: bold;
 font-size: larger;
 }
@@ -226,7 +240,7 @@ padding-right: 1em;
 
 
 #list_orders td {
-	font: 93% Georgia;
+	font: 93%;
 	height:50px;
 	padding-top:0em;
 	padding-bottom:0em;
@@ -246,7 +260,7 @@ padding-right: 1em;
 	width: 32.5em;
 }
 #t_orders td {
-	font: 93% Georgia;
+	font: 93%;
 	height:50px;
 	padding-top:0em;
 	padding-bottom:0em;
@@ -266,7 +280,7 @@ padding-right: 1em;
 	margin: 1em 1em 0em 1em;
 }
 #store .title {
-font-size: 120%;
+font-size: 100%;
 font-family: sans-serif;
 }
 
@@ -277,7 +291,7 @@ font-family: sans-serif;
 }
 #store .entry h3 {
 margin-bottom: 2px;
-color: #227 ;
+color: #62AB14 ;
 }
 
 #store .entry p {
@@ -293,7 +307,7 @@ position: relative;
 
 }
 #store .entry .price {
-color: #442222;
+color: #579F15;
 font-weight: bold;
 margin: auto 1em auto auto;
 }
@@ -315,6 +329,7 @@ float: left;
 display:inline;
 width: 300px;
 margin: 1em;
+font-size: 13px;
 }
 
 #form_contact{
@@ -337,13 +352,13 @@ border-top: 1px solid #773311 ;
 
 /* Styles for the cart in the sidebar */
 #cart, #cart table {
-color: #442222 ;
+color: #579F15 ;
 padding-left: 1em;
 font-size: 90%;
 }
 #cart table {
-border-top: 1px dotted #773311 ;
-border-bottom: 1px dotted #773311 ;
+border-top: 1px dotted #579F15 ;
+border-bottom: 1px dotted #579F15 ;
 margin-bottom: 10px;
 }
 
@@ -357,7 +372,7 @@ background: #efe;
 .depot-form legend {
 color: #dfd ;
 background: #442222 ;
-font-family: sans-serif;
+font-family: 'Trebuchet MS', sans-serif;
 padding: 0.2em 1em;
 }
 .depot-form label {

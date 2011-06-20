@@ -1,4 +1,12 @@
 class Product < ActiveRecord::Base
+    STATUSES = [
+   # Displayed stored in db
+   [ "Hidden" , 0 ],
+   [ "Available soon" , 1 ],
+   [ "On sale"  , 2 ],
+   [ "Reserved", 3 ],
+   [ "Sold" , 4 ]
+  ]
   has_many :orders, :through => :line_items
   has_many :line_items
   

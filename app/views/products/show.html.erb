@@ -7,6 +7,10 @@
   <b>Description:</b>
   <%=h @product.description %>
 </p>
+  <p>
+  <b>Status:</b>
+  <%=h Product::STATUSES[@product.status][0] %>
+  </p>
 
 <p>
   <b>Image url:</b>

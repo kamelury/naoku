@@ -15,32 +15,20 @@
 </p>
 
 <p>
-  <b>Pay type:</b>
-  <%=h @order.pay_type %>
-</p>
-<p>
   <table id="t_orders">
-  <b>Ordered items:</b>
+  <b>Items wanted:</b>
      <tr>
       <th>Title</th>
-	  <th>Quantity</th>
-	  <th>Price</th>
      </tr>
 	 <%
 		@items.each do |item|
 		@product=  Product.find(item.product_id) %>
      <tr>
 		<td><%=h @product.title %></td>
-		<td><%=h item.quantity %></td>
-		<td><%=number_to_currency(item.total_price, :unit => "$") %></td>
 	 </tr>
 		<br />
    	<% end %>
   </table>
-</p>
-<p>
-	<b>Total value:</b>
-		<%= number_to_currency( @total, :unit => "$") %>
 </p>
 
 <%= link_to 'Back', orders_path %>

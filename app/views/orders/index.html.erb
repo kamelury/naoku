@@ -3,13 +3,11 @@
 <table id="list_orders">
   <tr>
     <th>Name</th>
-	<th>Address</th>
 	<th>Email</th>
   </tr>
 <% for order in @orders %>
   <tr>
   	 <td><%= order.name %></td>
-	 <td><%=h order.address %></td>
 	 <td><%=h order.email %></td>
 	 <td><%= link_to 'Show', order %></td>
 	 <td><%= link_to 'Destroy', order, :confirm => 'Are you sure?', :method => :delete %></td>

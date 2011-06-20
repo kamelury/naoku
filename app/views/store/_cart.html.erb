@@ -1,10 +1,14 @@
-<div class="cart-title">Your Cart</div>
+<div class="cart-title">You want:</div>
 <table>
 	<%= render(:partial => "cart_item" , :collection => cart.items) %>
 	<tr class="total-line">
-	<td colspan="2">Total</td>
-	<td class="total-cell"><%= number_to_currency(cart.total_price, :unit => "$") %></td>
 	</tr>
 </table>
-<%= button_to "Checkout" , :action => :checkout %>
-<%= button_to "Empty cart" , :action => :empty_cart %>
+
+<div style="float: left; display:inline; width: 50px;"; >
+	<%= button_to "send" , :action => :checkout%> 
+</div>
+<div style="float: left; display:inline; width: 10px;"; >  |   </div>	  
+  <div style="float: left; display:inline;  width: 50px;"; >
+<%= button_to "remove" , :action => :empty_cart %>
+</div>
