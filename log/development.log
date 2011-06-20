@@ -86,3 +86,134 @@ Processing ContactController#index (for 127.0.0.1 at 2011-06-19 22:40:40) [GET]
 Rendering template within layouts/store
 Rendering contact/index
 Completed in 14ms (View: 12, DB: 1) | 200 OK [http://127.0.0.1/contact]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 22:56:45) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 36ms (View: 17, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#index (for 127.0.0.1 at 2011-06-19 22:56:47) [GET]
+Rendering template within layouts/store
+Rendering contact/index
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/contact]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#send_mail (for 127.0.0.1 at 2011-06-19 22:56:55) [POST]
+  Parameters: {"authenticity_token"=>"Tfd5wNNXYxNz5NpXmyqkUHSzAZFGWkgCE1WbzfZYYw0=", "email"=>{"name"=>"greg", "address"=>"tra@rgeg.vt", "subject"=>"g", "body"=>"grtg"}, "commit"=>"Submit"}
+Sent mail to naoku.sale@gmail.com
+
+Date: Sun, 19 Jun 2011 22:56:55 -0400
+From: tra@rgeg.vt
+To: naoku.sale@gmail.com
+Subject: [Naoku sale] 
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Name: greg 
+Email: tra@rgeg.vt
+Subject: g
+
+
+---
+grtg
+---
+
+NameError (undefined local variable or method `store' for #<ContactController:0x4f88508>):
+  app/controllers/contact_controller.rb:10:in `send_mail'
+  <internal:prelude>:10:in `synchronize'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (14.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#send_mail (for 127.0.0.1 at 2011-06-19 22:57:29) [POST]
+  Parameters: {"authenticity_token"=>"Tfd5wNNXYxNz5NpXmyqkUHSzAZFGWkgCE1WbzfZYYw0=", "email"=>{"name"=>"greg", "address"=>"tra@rgeg.vt", "subject"=>"g", "body"=>"grtg"}, "commit"=>"Submit"}
+Sent mail to naoku.sale@gmail.com
+
+Date: Sun, 19 Jun 2011 22:57:29 -0400
+From: tra@rgeg.vt
+To: naoku.sale@gmail.com
+Subject: [Naoku sale] 
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Name: greg 
+Email: tra@rgeg.vt
+Subject: g
+
+
+---
+grtg
+---
+Redirected to http://127.0.0.1:3000/
+Completed in 26ms (DB: 1) | 302 Found [http://127.0.0.1/contact/send_mail]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 22:57:30) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 47ms (View: 31, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 22:57:32) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 29ms (View: 13, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#index (for 127.0.0.1 at 2011-06-19 22:57:34) [GET]
+Rendering template within layouts/store
+Rendering contact/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://127.0.0.1/contact]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#send_mail (for 127.0.0.1 at 2011-06-19 22:57:41) [POST]
+  Parameters: {"authenticity_token"=>"Tfd5wNNXYxNz5NpXmyqkUHSzAZFGWkgCE1WbzfZYYw0=", "email"=>{"name"=>"rre", "address"=>"kamelury@msn.com", "subject"=>"kjvnl", "body"=>"kjvnlwtkj"}, "commit"=>"Submit"}
+Sent mail to naoku.sale@gmail.com
+
+Date: Sun, 19 Jun 2011 22:57:41 -0400
+From: kamelury@msn.com
+To: naoku.sale@gmail.com
+Subject: [Naoku sale] 
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Name: rre 
+Email: kamelury@msn.com
+Subject: kjvnl
+
+
+---
+kjvnlwtkj
+---
+Redirected to http://127.0.0.1:3000/
+Completed in 25ms (DB: 1) | 302 Found [http://127.0.0.1/contact/send_mail]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 22:57:42) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (0.0ms)
+Completed in 30ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/]
