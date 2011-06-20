@@ -42,3 +42,47 @@ Rendering template within layouts/store
 Rendering store/index
 Rendered store/_cart (1.0ms)
 Completed in 31ms (View: 13, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 22:40:28) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 32ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#index (for 127.0.0.1 at 2011-06-19 22:40:34) [GET]
+Rendering template within layouts/store
+Rendering contact/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://127.0.0.1/contact]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#send_mail (for 127.0.0.1 at 2011-06-19 22:40:40) [POST]
+  Parameters: {"authenticity_token"=>"Tfd5wNNXYxNz5NpXmyqkUHSzAZFGWkgCE1WbzfZYYw0=", "email"=>{"name"=>"gt", "address"=>"kamelury@msn.com", "subject"=>"kamelury@msn.com", "body"=>"tgteg"}, "commit"=>"Submit"}
+Sent mail to naoku.sale@gmail.com
+
+Date: Sun, 19 Jun 2011 22:40:40 -0400
+From: kamelury@msn.com
+To: naoku.sale@gmail.com
+Subject: [Naoku sale] kamelury@msn.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+gt wrote you an email:
+
+---
+tgteg
+---
+Redirected to http://127.0.0.1:3000/contact
+Completed in 53ms (DB: 1) | 302 Found [http://127.0.0.1/contact/send_mail]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#index (for 127.0.0.1 at 2011-06-19 22:40:40) [GET]
+Rendering template within layouts/store
+Rendering contact/index
+Completed in 14ms (View: 12, DB: 1) | 200 OK [http://127.0.0.1/contact]
