@@ -44,13 +44,13 @@ end
 
 
 config.action_mailer.delivery_method = :smtp 
+config.action_mailer.raise_delivery_errors = true
 config.action_mailer.smtp_settings = {
   :enable_starttls_auto => true,
   :address        => 'smtp.gmail.com',
   :port           => 587,
   :authentication => :plain,
-  :domain  => "localhost"
+  :domain  => "naoku.heroku.com",
   :user_name => "naoku.sale@gmail.com" ,
   :password => "ameryka123"
 }
-config.action_mailer.raise_delivery_errors = true
