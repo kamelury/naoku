@@ -40,10 +40,16 @@ Rails::Initializer.run do |config|
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
 end
+require 'smtp_tls'
 
-ActionMailer::Base.delivery_method = :smtp
-ActionMailer::Base.smtp_settings = {
-  :address  => "thehandbageshop@gmail.com",
-  :port  => 993, 
-  :domain  => "smtp.gmail.com"
+config.action_mailer.delivery_method = :smtp 
+config.action_mailer.smtp_settings = {
+  :enable_starttls_auto => true,
+  :address        => 'smtp.gmail.com',
+  :port           => 587,
+  :authentication => :plain,
+  :domain  => "localhost"
+  :user_name => "naoku.sale@gmail.com" ,
+  :password => "ameryka123"
 }
+config.action_mailer.raise_delivery_errors = true

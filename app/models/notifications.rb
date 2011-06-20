@@ -2,8 +2,8 @@
 
 class Notifications < ActionMailer::Base
   def question(email_params, sent_at = Time.now)
-    subject "[The Handbag eShop] " << email_params[:subject]
-    recipients "helenaenred@gmail.com" # Perhaps your address here?
+    subject "[Naoku sale] " << email_params[:subject]
+    recipients "naoku.sale@gmail.com" # Perhaps your address here?
     from email_params[:address]
     sent_on sent_at
 

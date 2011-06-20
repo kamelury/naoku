@@ -32,11 +32,10 @@
 				<% if session[:user_id] %>
 				
 					<p>Admin Panel</p>
-					<li id="m-orders"><%= link_to 'Orders', :controller => 'orders' %></li><br />
-					<li id="m-products"><%= link_to 'Products', :controller => 'products' %></li><br />
-					<li id="m-users"><%= link_to 'Users', :controller => 'users' %></li><br />
-					<br />
-					<li id="m-logout"><%= link_to 'Logout', :controller => :admin, :action => 'logout' %></li>
+					<li id="m-orders"><%= link_to 'orders', :controller => 'orders' %></li><br />
+					<li id="m-products"><%= link_to 'items', :controller => 'products' %></li><br />
+					<li id="m-users"><%= link_to 'users', :controller => 'users' %></li><br />
+					<li id="m-logout"><%= link_to 'logout', :controller => :admin, :action => 'logout' %></li>
 				<% end %>
 				</ul>				
 				 

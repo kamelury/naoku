@@ -6,7 +6,7 @@ class ContactController < ApplicationController
 
   def send_mail
     Notifications.deliver_question(params[:email])
-    flash[:notice] = "Email was succesfully sent."
+    flash[:notice] = "Your message was succesfully sent."
     redirect_to :action => "index"
   end
   
