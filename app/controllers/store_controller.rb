@@ -47,8 +47,8 @@ class StoreController < ApplicationController
     if @order.save
       session[:cart] = nil
       redirect_to_index("Thank you for sending me your list. I will reply shortly." )
-      Lead.deliver_notice(params[:order])
-      Lead.deliver_notice(params[:order])
+      Lead.deliver_confirmation(@order)
+      Lead.deliver_notice(@order)
     else
       render :action => :checkout
     end

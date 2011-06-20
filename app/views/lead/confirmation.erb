@@ -1,5 +1,8 @@
-You have expressed interest in the following tiemsŁ
-
+You have expressed interest in the following tiems:
+<% @items.each do |item|
+   @product=  Product.find(item.product_id) %>
+   		> <%=h @product.title %>
+   	<% end %>
 
 Thank you. I will contact you shortly.
 Kamila
