@@ -4316,3 +4316,529 @@ Processing OrdersController#index (for 127.0.0.1 at 2011-06-19 21:15:09) [GET]
 Rendering template within layouts/store
 Rendering orders/index
 Completed in 52ms (View: 18, DB: 2) | 200 OK [http://127.0.0.1/orders/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 21:16:47) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (0.0ms)
+Completed in 36ms (View: 15, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#index (for 127.0.0.1 at 2011-06-19 21:16:51) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mOrder Load (1.0ms)[0m   [0mSELECT * FROM "orders" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering orders/index
+Completed in 37ms (View: 10, DB: 2) | 200 OK [http://127.0.0.1/orders]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#show (for 127.0.0.1 at 2011-06-19 21:16:53) [GET]
+  Parameters: {"id"=>"23"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mOrder Load (0.0ms)[0m   [0mSELECT * FROM "orders" WHERE ("orders"."id" = 23) [0m
+  [4;36;1mLineItem Load (1.0ms)[0m   [0;1mSELECT * FROM "line_items" WHERE ("line_items".order_id = 23) [0m
+Rendering template within layouts/store
+Rendering orders/show
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 51) [0m
+Completed in 98ms (View: 23, DB: 3) | 200 OK [http://127.0.0.1/orders/23]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#index (for 127.0.0.1 at 2011-06-19 21:16:56) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mOrder Load (1.0ms)[0m   [0mSELECT * FROM "orders" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering orders/index
+Completed in 54ms (View: 11, DB: 3) | 200 OK [http://127.0.0.1/orders]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#destroy (for 127.0.0.1 at 2011-06-19 21:16:58) [DELETE]
+  Parameters: {"authenticity_token"=>"Tfd5wNNXYxNz5NpXmyqkUHSzAZFGWkgCE1WbzfZYYw0=", "id"=>"23"}
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mOrder Load (0.0ms)[0m   [0mSELECT * FROM "orders" WHERE ("orders"."id" = 23) [0m
+  [4;36;1mOrder Destroy (1.0ms)[0m   [0;1mDELETE FROM "orders" WHERE "id" = 23[0m
+Redirected to http://127.0.0.1:3000/orders
+Completed in 139ms (DB: 3) | 302 Found [http://127.0.0.1/orders/23]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#index (for 127.0.0.1 at 2011-06-19 21:16:58) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mOrder Load (2.0ms)[0m   [0;1mSELECT * FROM "orders" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering orders/index
+Completed in 47ms (View: 11, DB: 3) | 200 OK [http://127.0.0.1/orders]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#destroy (for 127.0.0.1 at 2011-06-19 21:17:00) [DELETE]
+  Parameters: {"authenticity_token"=>"Tfd5wNNXYxNz5NpXmyqkUHSzAZFGWkgCE1WbzfZYYw0=", "id"=>"20"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mOrder Load (1.0ms)[0m   [0;1mSELECT * FROM "orders" WHERE ("orders"."id" = 20) [0m
+  [4;35;1mOrder Destroy (2.0ms)[0m   [0mDELETE FROM "orders" WHERE "id" = 20[0m
+Redirected to http://127.0.0.1:3000/orders
+Completed in 232ms (DB: 5) | 302 Found [http://127.0.0.1/orders/20]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#index (for 127.0.0.1 at 2011-06-19 21:17:01) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mOrder Load (1.0ms)[0m   [0mSELECT * FROM "orders" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering orders/index
+Completed in 61ms (View: 8, DB: 2) | 200 OK [http://127.0.0.1/orders]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2011-06-19 21:17:03) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering users/index
+Completed in 170ms (View: 128, DB: 3) | 200 OK [http://127.0.0.1/users]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#index (for 127.0.0.1 at 2011-06-19 21:17:05) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mOrder Load (1.0ms)[0m   [0mSELECT * FROM "orders" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering orders/index
+Completed in 68ms (View: 3, DB: 3) | 200 OK [http://127.0.0.1/orders]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-06-19 21:17:06) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+Completed in 53ms (View: 20, DB: 1) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2011-06-19 21:17:08) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/store
+Rendering products/new
+Completed in 35ms (View: 8, DB: 1) | 200 OK [http://127.0.0.1/products/new]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2011-06-19 21:18:25) [POST]
+  Parameters: {"authenticity_token"=>"Tfd5wNNXYxNz5NpXmyqkUHSzAZFGWkgCE1WbzfZYYw0=", "product"=>{"title"=>"WOODEN dresser", "description"=>"Nice, stylish wooden dresser.", "status"=>"2", "image_url"=>"/images/dresser.png", "price"=>"0.0"}, "commit"=>"Create"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'WOODEN dresser') LIMIT 1[0m
+Rendering template within layouts/store
+Rendering products/new
+Completed in 42ms (View: 8, DB: 2) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2011-06-19 21:18:33) [POST]
+  Parameters: {"authenticity_token"=>"Tfd5wNNXYxNz5NpXmyqkUHSzAZFGWkgCE1WbzfZYYw0=", "product"=>{"title"=>"WOODEN dresser", "description"=>"Nice, stylish wooden dresser.", "status"=>"2", "image_url"=>"/images/dresser.png", "price"=>"40.0"}, "commit"=>"Create"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'WOODEN dresser') LIMIT 1[0m
+  [4;35;1mProduct Create (1.0ms)[0m   [0mINSERT INTO "products" ("title", "description", "image_url", "created_at", "updated_at", "price", "status") VALUES('WOODEN dresser', 'Nice, stylish wooden dresser.', '/images/dresser.png', '2011-06-20 01:18:33', '2011-06-20 01:18:33', 40.0, 2)[0m
+Redirected to http://127.0.0.1:3000/products/52
+Completed in 45ms (DB: 4) | 302 Found [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2011-06-19 21:18:33) [GET]
+  Parameters: {"id"=>"52"}
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 52) [0m
+Rendering template within layouts/store
+Rendering products/show
+Completed in 55ms (View: 8, DB: 2) | 200 OK [http://127.0.0.1/products/52]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 21:18:35) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 40ms (View: 17, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-19 21:18:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/dresser.png" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 21:20:15) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 38ms (View: 17, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ContactController#index (for 127.0.0.1 at 2011-06-19 21:20:24) [GET]
+Rendering template within layouts/store
+Rendering contact/index
+Completed in 37ms (View: 31, DB: 2) | 200 OK [http://127.0.0.1/contact]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 21:20:27) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 36ms (View: 16, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-06-19 21:37:00) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+Completed in 74ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2011-06-19 21:37:02) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/store
+Rendering products/new
+Completed in 51ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/products/new]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2011-06-19 21:37:45) [POST]
+  Parameters: {"authenticity_token"=>"Tfd5wNNXYxNz5NpXmyqkUHSzAZFGWkgCE1WbzfZYYw0=", "product"=>{"title"=>"WOODEN bed", "description"=>"Stylish wooden twin bed with mattress.", "status"=>"0", "image_url"=>"images/bed.png", "price"=>"80.0"}, "commit"=>"Create"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."title" = 'WOODEN bed') LIMIT 1[0m
+  [4;36;1mProduct Create (1.0ms)[0m   [0;1mINSERT INTO "products" ("title", "description", "image_url", "created_at", "updated_at", "price", "status") VALUES('WOODEN bed', 'Stylish wooden twin bed with mattress.', 'images/bed.png', '2011-06-20 01:37:45', '2011-06-20 01:37:45', 80.0, 0)[0m
+Redirected to http://127.0.0.1:3000/products/53
+Completed in 61ms (DB: 1) | 302 Found [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2011-06-19 21:37:45) [GET]
+  Parameters: {"id"=>"53"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 53) [0m
+Rendering template within layouts/store
+Rendering products/show
+Completed in 58ms (View: 28, DB: 0) | 200 OK [http://127.0.0.1/products/53]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-06-19 21:37:46) [GET]
+  Parameters: {"id"=>"53"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 53) [0m
+Rendering template within layouts/store
+Rendering products/edit
+Completed in 36ms (View: 8, DB: 1) | 200 OK [http://127.0.0.1/products/53/edit]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2011-06-19 21:37:50) [PUT]
+  Parameters: {"authenticity_token"=>"Tfd5wNNXYxNz5NpXmyqkUHSzAZFGWkgCE1WbzfZYYw0=", "product"=>{"title"=>"WOODEN bed", "description"=>"Stylish wooden twin bed with mattress.", "status"=>"1", "image_url"=>"images/bed.png", "price"=>"80"}, "commit"=>"Update", "id"=>"53"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 53) [0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."title" = 'WOODEN bed' AND "products".id <> 53) LIMIT 1[0m
+  [4;36;1mProduct Update (2.0ms)[0m   [0;1mUPDATE "products" SET "status" = 1, "updated_at" = '2011-06-20 01:37:50' WHERE "id" = 53[0m
+Redirected to http://127.0.0.1:3000/products/53
+Completed in 77ms (DB: 4) | 302 Found [http://127.0.0.1/products/53]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2011-06-19 21:37:50) [GET]
+  Parameters: {"id"=>"53"}
+  [4;35;1mUser Load (2.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 53) [0m
+Rendering template within layouts/store
+Rendering products/show
+Completed in 37ms (View: 7, DB: 3) | 200 OK [http://127.0.0.1/products/53]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 21:37:52) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 46ms (View: 13, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-19 21:37:52) [GET]
+
+ActionController::RoutingError (No route matches "/images/images/bed.png" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 21:38:24) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (0.0ms)
+Completed in 29ms (View: 12, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-19 21:38:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/images/bed.png" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-06-19 21:38:28) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+Completed in 41ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-19 21:38:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/images/bed.png" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-06-19 21:38:30) [GET]
+  Parameters: {"id"=>"53"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 53) [0m
+Rendering template within layouts/store
+Rendering products/edit
+Completed in 42ms (View: 8, DB: 2) | 200 OK [http://127.0.0.1/products/53/edit]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2011-06-19 21:38:35) [PUT]
+  Parameters: {"authenticity_token"=>"Tfd5wNNXYxNz5NpXmyqkUHSzAZFGWkgCE1WbzfZYYw0=", "product"=>{"title"=>"WOODEN bed", "description"=>"Stylish wooden twin bed with mattress.", "status"=>"1", "image_url"=>"images/bed.png", "price"=>"80"}, "commit"=>"Update", "id"=>"53"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 53) [0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."title" = 'WOODEN bed' AND "products".id <> 53) LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/products/53
+Completed in 36ms (DB: 0) | 302 Found [http://127.0.0.1/products/53]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2011-06-19 21:38:36) [GET]
+  Parameters: {"id"=>"53"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 53) [0m
+Rendering template within layouts/store
+Rendering products/show
+Completed in 53ms (View: 8, DB: 2) | 200 OK [http://127.0.0.1/products/53]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 21:38:38) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (0.0ms)
+Completed in 47ms (View: 31, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-19 21:38:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/images/bed.png" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 21:38:47) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (0.0ms)
+Completed in 29ms (View: 13, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-19 21:38:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/images/bed.png" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 21:38:51) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (0.0ms)
+Completed in 45ms (View: 12, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-19 21:38:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/images/bed.png" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-06-19 21:38:59) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (16.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+Completed in 57ms (View: 14, DB: 16) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-19 21:38:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/images/bed.png" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-06-19 21:39:01) [GET]
+  Parameters: {"id"=>"49"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 49) [0m
+Rendering template within layouts/store
+Rendering products/edit
+Completed in 36ms (View: 7, DB: 2) | 200 OK [http://127.0.0.1/products/49/edit]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-06-19 21:39:05) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from block in _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:19)
+Completed in 58ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-19 21:39:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/images/bed.png" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-06-19 21:39:07) [GET]
+  Parameters: {"id"=>"53"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 53) [0m
+Rendering template within layouts/store
+Rendering products/edit
+Completed in 36ms (View: 7, DB: 1) | 200 OK [http://127.0.0.1/products/53/edit]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2011-06-19 21:39:12) [PUT]
+  Parameters: {"authenticity_token"=>"Tfd5wNNXYxNz5NpXmyqkUHSzAZFGWkgCE1WbzfZYYw0=", "product"=>{"title"=>"WOODEN bed", "description"=>"Stylish wooden twin bed with mattress.", "status"=>"1", "image_url"=>"/images/bed.png", "price"=>"80"}, "commit"=>"Update", "id"=>"53"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 53) [0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."title" = 'WOODEN bed' AND "products".id <> 53) LIMIT 1[0m
+  [4;36;1mProduct Update (1.0ms)[0m   [0;1mUPDATE "products" SET "image_url" = '/images/bed.png', "updated_at" = '2011-06-20 01:39:12' WHERE "id" = 53[0m
+Redirected to http://127.0.0.1:3000/products/53
+Completed in 45ms (DB: 4) | 302 Found [http://127.0.0.1/products/53]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2011-06-19 21:39:12) [GET]
+  Parameters: {"id"=>"53"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 53) [0m
+Rendering template within layouts/store
+Rendering products/show
+Completed in 54ms (View: 8, DB: 2) | 200 OK [http://127.0.0.1/products/53]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from <class:ApplicationController> at C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-19 21:39:13) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (0.0ms)
+Completed in 30ms (View: 14, DB: 2) | 200 OK [http://127.0.0.1/]
