@@ -18,7 +18,7 @@ class Lead < ActionMailer::Base
     body :items => order.line_items, 
          :note => order[:note], 
          :sender_name => order[:name], 
-         :sender_email => order[:email], 
+         :sender_email => order[:email] 
   end
 
 end
