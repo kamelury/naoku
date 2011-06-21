@@ -7,6 +7,6 @@ require 'rake'
 require 'rake/testtask'
 #require 'rdoc/task'
 #require 'sqlite3'
-RDoc::Task.new do |rdoc|
-end
+#RDoc::Task.new do |rdoc|
+#Send
 require 'tasks/rails'
