@@ -9,14 +9,20 @@ class Product < ActiveRecord::Base
   ]
   has_many :orders, :through => :line_items
   has_many :line_items
-  
-  validates_presence_of :title, :description, :image_url
+  has_attached_file :photo,
+    :styles => {
+     :thumb=> "100x100#",
+     :small  => "150x150>",
+     :medium => "300x300>",
+     :large =>   "400x400>" 
+  }
+  validates_presence_of :title, :description
   validates_numericality_of :price
   validate :price_must_be_at_least_a_cent
   validates_uniqueness_of :title
-  validates_format_of :image_url,
-    :with => %r{\.(gif|jpg|png)$}i,
-    :message => 'must be a URL for GIF, JPG ' + 'or PNG image.(gif|jpg|png)'
+#  validates_format_of :image_url,
+#    :with => %r{\.(gif|jpg|png)$}i,
+#    :message => 'must be a URL for GIF, JPG ' + 'or PNG image.(gif|jpg|png)'
 
 protected
   def price_must_be_at_least_a_cent

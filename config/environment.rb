@@ -13,6 +13,7 @@ Rails::Initializer.run do |config|
 
   # Add additional load paths for your own custom dirs
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
+  config.gem "paperclip", :version => "~> 2.3"
 
   # Specify gems that this application depends on and have them installed with rake gems:install
   # config.gem "bj"
@@ -34,11 +35,11 @@ Rails::Initializer.run do |config|
   # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
   # Run "rake -D time" for a list of tasks for finding time zone names.
   config.time_zone = 'UTC'
-  #TODO config.action_mailer.delivery_method = :smtp | :sendmail | :test
-
+ 
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
+  
   config.action_mailer.delivery_method = :smtp 
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.smtp_settings = {

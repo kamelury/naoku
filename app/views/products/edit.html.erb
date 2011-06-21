@@ -1,6 +1,6 @@
 <h1>Editing product</h1>
 
-<% form_for(@product) do |f| %>
+<% form_for(@product, :html => {:multipart => true}) do |f| %>
   <%= f.error_messages %>
 
   <p>
@@ -19,6 +19,10 @@
     <%= f.label :image_url %><br />
     <%= f.text_field :image_url %>
   </p>
+    <p>
+    <%= f.label :image_url %><br />
+   <li><%= f.file_field :photo %></li>
+  </p>  
   <p>
 	<%= f.label :price %><br />
 	<%= f.text_field :price %>
