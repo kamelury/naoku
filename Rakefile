@@ -8,6 +8,6 @@ require 'rake/testtask'
 #require 'rdoc/task'
 require 'rake/rdoctask'
 
-RDoc::Task.new do |rdoc|
-end
+# RDoc::Task.new do |rdoc|
+# end
 require 'tasks/rails'
