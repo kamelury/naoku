@@ -7,5 +7,5 @@ require 'rake'
 require 'rake/testtask'
 require 'rdoc/task'
 RDoc::Task.new do |rdoc|
-Send
+end
 require 'tasks/rails'
