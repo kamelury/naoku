@@ -13,8 +13,8 @@ class Product < ActiveRecord::Base
     :storage => :s3,
     :bucket => 'items_photos',
     :s3_credentials => {
-      :access_key_id => ENV['AKIAJCUJ6BNCADLEZBGQ'],
-      :secret_access_key => ENV['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']
+      :access_key_id => ENV['AKIAJY2XZ2CLM7CNH7QQ'],
+      :secret_access_key => ENV['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']
     },
     :styles => {
      :thumb=> "100x100#",
