@@ -1,8 +1,9 @@
 // Place your application-specific JavaScript functions and classes here
 // This file is automatically included by javascript_include_tag :defaults
-$.facebox.settings.closeImage = '/images/facebox/closelabel.png'
-$.facebox.settings.loadingImage = '/images/facebox/loading.gif'
 
-jQuery(document).ready(function($) {
-  $('a[rel*=facebox]').facebox()
+$j.facebox.settings.loadingImage = '/images/facebox/loading.gif';	
+$j.facebox.settings.closeImage = '/images/facebox/closelabel.png'
+
+$j(document).ready(function($) {
+  $j('a[rel*=facebox]').facebox()
 })

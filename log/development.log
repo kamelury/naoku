@@ -2801,3 +2801,2086 @@ Rendering template within layouts/store
 Rendering store/index
 Rendered store/_cart (3.0ms)
 Completed in 69ms (View: 48, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 21:43:00) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (6.0ms)
+Completed in 195ms (View: 133, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 21:43:12) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 48ms (View: 31, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 21:43:31) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 145ms (View: 116, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 21:47:46) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 77ms (View: 47, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 21:51:20) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 151ms (View: 73, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 21:53:22) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 77ms (View: 55, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 21:53:42) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 67ms (View: 46, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 21:55:43) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 90ms (View: 65, DB: 3) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 21:57:39) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 80ms (View: 50, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 21:58:38) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 87ms (View: 62, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 21:58:57) [GET]
+  [4;36;1mProduct Load (2.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 76ms (View: 50, DB: 3) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:00:01) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 87ms (View: 62, DB: 3) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:01:15) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (6.0ms)
+Completed in 160ms (View: 136, DB: 0) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:01:15) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jfacebox.js" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:01:15) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/facebox/facebox.js" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:01:25) [GET]
+  [4;35;1mProduct Load (5.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 73ms (View: 48, DB: 5) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:01:26) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/facebox/facebox.js" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:02:53) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 89ms (View: 64, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:03:26) [GET]
+  [4;35;1mProduct Load (2.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 138ms (View: 68, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:04:06) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 63ms (View: 40, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:04:16) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 120ms (View: 53, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:06:31) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 81ms (View: 58, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:08:13) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 74ms (View: 50, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:08:46) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 62ms (View: 42, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:09:25) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 128ms (View: 60, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:09:56) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 83ms (View: 54, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:10:33) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 77ms (View: 55, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:10:51) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 131ms (View: 55, DB: 0) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:12:35) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+
+ActionView::TemplateError (undefined local variable or method `thumbnail' for #<ActionView::Base:0x864db78>) on line #19 of app/views/store/index.html.erb:
+16: 	<div class="entry">
+17: 		<div class="entry_left">
+18: 			<!-- <%= image_tag(product.image_url) %> -->
+19: 			<%= image_tag product.photo.url(:original), :class => thumbnail %>
+20: 		</div>
+21: 		<div class="entry_right">
+22: 			<h3><%=h product.title %></h3>
+
+    app/views/store/index.html.erb:19
+    app/views/store/index.html.erb:15:in `each'
+    app/views/store/index.html.erb:15
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (72.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:13:01) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 93ms (View: 65, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:13:34) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 65ms (View: 34, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:13:35) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:15:12) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 130ms (View: 86, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:15:14) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:17:03) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 80ms (View: 57, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:17:39) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 72ms (View: 49, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:17:40) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:20:25) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 67ms (View: 45, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:21:26) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 72ms (View: 49, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:21:42) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 72ms (View: 49, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:21:51) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 77ms (View: 49, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:22:09) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 87ms (View: 64, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:22:10) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:22:48) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 74ms (View: 51, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:22:50) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:23:14) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 77ms (View: 50, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:23:14) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:23:25) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/cloelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:23:25) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:23:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/facebox/cloelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:23:57) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 71ms (View: 49, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:23:57) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:26:23) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 138ms (View: 116, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:26:24) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:26:38) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 68ms (View: 45, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:28:07) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:29:47) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 65ms (View: 44, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:29:48) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:31:11) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 85ms (View: 64, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:33:12) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 93ms (View: 72, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:33:13) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:37:01) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+ERROR: compiling _run_erb_app47views47store47index46html46erb RAISED compile error
+C:/workspace/naoku/app/views/store/index.html.erb:20: syntax error, unexpected ','
+...product.photo.url(:original),, :rel => 'facebox' ).to_s); @o...
+                              ^
+Function body:           def _run_erb_app47views47store47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<p> This is the list of the things I am willing to sell. Note that it is not a store.\n\t<br />It was created for presentation purposes only. \n\t<br /><br />\n\t<span class=\"lower\">\n\tIf you are interested in any of the items click <span class=\"green\">I want it</span>.<br />\n\tYou can inform me about the items you like by clicking <span class=\"green\">send</span> and filling the form.\n\t</span>\n\t</p>\n<div class=\"search\">"
+
+
+
+
+
+
+
+;  form_tag :method => 'get' do; @output_buffer.concat "\n\t<div class=\"search\">"
+; @output_buffer.concat(( text_field_tag :search, params[:search] ).to_s); @output_buffer.concat "\n\t"
+; @output_buffer.concat(( submit_tag "Search", :name => nil ).to_s); @output_buffer.concat "\n\t"
+; end; @output_buffer.concat "\n\t</div></div>\n\t<h1> </h1>\n"
+
+
+;  for product in @products 
+@output_buffer.concat "\t<div class=\"entry\">\n\t\t<div class=\"entry_left\">\n\t\t\t<!-- "
+
+; @output_buffer.concat(( image_tag(product.image_url) ).to_s); @output_buffer.concat " -->\n\t\t\t<!-- "
+; @output_buffer.concat(( image_tag product.photo.url(:original), :rel => 'facebox' ).to_s); @output_buffer.concat " -->\n\t\t\t"
+; @output_buffer.concat(( link_to product.photo.url(:original),, :rel => 'facebox' ).to_s); @output_buffer.concat "\n\t\t</div>\n\t\t<div class=\"entry_right\">\n\t\t\t<h3>"
+
+
+; @output_buffer.concat((h product.title ).to_s); @output_buffer.concat "</h3>\n\t\t\t"
+; @output_buffer.concat(( product.description ).to_s); @output_buffer.concat "\t\t\n\t\t\t<div><b>Status:</b>  "
+; @output_buffer.concat((h Product::STATUSES[product.status][0] ).to_s); @output_buffer.concat "</div>\n\t\t\t<div class=\"add_button\">\n\t\t\t\t"
+
+;  form_remote_tag :url => { :action => :add_to_cart, :id => product } do ; @output_buffer.concat "\n\t\t\t\t<div class=\"add_button\"> "
+; @output_buffer.concat(( submit_tag "I want it" ).to_s); @output_buffer.concat "\n\t\t\t\t\t"
+;  end ; @output_buffer.concat "\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\n\t</div>\n"
+
+
+
+
+
+;  end ; @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/workspace/naoku/app/views/store/index.html.erb:39:in `compile!'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/abstract_store.rb:122:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+script/server:3:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/workspace/naoku/app/views/store/index.html.erb:20: syntax error, unexpected ','
+...product.photo.url(:original),, :rel => 'facebox' ).to_s); @o...
+                              ^) on line #20 of app/views/store/index.html.erb:
+17: 		<div class="entry_left">
+18: 			<!-- <%= image_tag(product.image_url) %> -->
+19: 			<!-- <%= image_tag product.photo.url(:original), :rel => 'facebox' %> -->
+20: 			<%= link_to product.photo.url(:original),, :rel => 'facebox' %>
+21: 		</div>
+22: 		<div class="entry_right">
+23: 			<h3><%=h product.title %></h3>
+
+    app/views/store/index.html.erb:39:in `compile!'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (120.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:37:13) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 162ms (View: 62, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:37:15) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:38:04) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 150ms (View: 125, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:38:05) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:38:07) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 151ms (View: 49, DB: 3) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:38:08) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:38:29) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 92ms (View: 62, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:38:29) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 68ms (View: 45, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:38:30) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:38:30) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:39:22) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 84ms (View: 60, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:39:23) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:39:35) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 62ms (View: 42, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:39:35) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:39:45) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 62ms (View: 42, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:39:46) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:40:05) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 62ms (View: 42, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:40:27) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (4.0ms)
+Completed in 75ms (View: 47, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:40:28) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:42:08) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 77ms (View: 57, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:43:47) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (4.0ms)
+Completed in 90ms (View: 67, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:43:57) [GET]
+
+ActionController::RoutingError (No route matches "/lamp.jpg" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:45:01) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 86ms (View: 61, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:45:25) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 81ms (View: 60, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:45:30) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 78ms (View: 56, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:49:46) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+ERROR: compiling _run_erb_app47views47store47index46html46erb RAISED compile error
+C:/workspace/naoku/app/views/store/index.html.erb:19: syntax error, unexpected ')', expecting kEND
+...) , :rel => 'facebox'  ).to_s); @output_buffer.concat "\n\t\...
+                              ^
+Function body:           def _run_erb_app47views47store47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<p> This is the list of the things I am willing to sell. Note that it is not a store.\n\t<br />It was created for presentation purposes only. \n\t<br /><br />\n\t<span class=\"lower\">\n\tIf you are interested in any of the items click <span class=\"green\">I want it</span>.<br />\n\tYou can inform me about the items you like by clicking <span class=\"green\">send</span> and filling the form.\n\t</span>\n\t</p>\n<div class=\"search\">"
+
+
+
+
+
+
+
+;  form_tag :method => 'get' do; @output_buffer.concat "\n\t<div class=\"search\">"
+; @output_buffer.concat(( text_field_tag :search, params[:search] ).to_s); @output_buffer.concat "\n\t"
+; @output_buffer.concat(( submit_tag "Search", :name => nil ).to_s); @output_buffer.concat "\n\t"
+; end; @output_buffer.concat "\n\t</div></div>\n\t<h1> </h1>\n"
+
+
+;  for product in @products 
+@output_buffer.concat "\t<div class=\"entry\">\n\t\t<div class=\"entry_left\">\n\t\t\t<!-- "
+
+; @output_buffer.concat(( image_tag product.photo.url(:original), :rel => 'facebox' ).to_s); @output_buffer.concat " -->\n\t\t\t"
+; @output_buffer.concat(( link_to image_tag(product.photo.url(:original)),product.photo.url(:original)) , :rel => 'facebox'  ).to_s); @output_buffer.concat "\n\t\t</div>\n\t\t<div class=\"entry_right\">\n\t\t\t<h3>"
+
+
+; @output_buffer.concat((h product.title ).to_s); @output_buffer.concat "</h3>\n\t\t\t"
+; @output_buffer.concat(( product.description ).to_s); @output_buffer.concat "\t\t\n\t\t\t<div><b>Status:</b>  "
+; @output_buffer.concat((h Product::STATUSES[product.status][0] ).to_s); @output_buffer.concat "</div>\n\t\t\t<div class=\"add_button\">\n\t\t\t\t"
+
+;  form_remote_tag :url => { :action => :add_to_cart, :id => product } do ; @output_buffer.concat "\n\t\t\t\t<div class=\"add_button\"> "
+; @output_buffer.concat(( submit_tag "I want it" ).to_s); @output_buffer.concat "\n\t\t\t\t\t"
+;  end ; @output_buffer.concat "\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\n\t</div>\n"
+
+
+
+
+
+;  end ; @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/workspace/naoku/app/views/store/index.html.erb:38:in `compile!'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/abstract_store.rb:122:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+script/server:3:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/workspace/naoku/app/views/store/index.html.erb:19: syntax error, unexpected ')', expecting kEND
+...) , :rel => 'facebox'  ).to_s); @output_buffer.concat "\n\t\...
+                              ^) on line #19 of app/views/store/index.html.erb:
+16: 	<div class="entry">
+17: 		<div class="entry_left">
+18: 			<!-- <%= image_tag product.photo.url(:original), :rel => 'facebox' %> -->
+19: 			<%= link_to image_tag(product.photo.url(:original)),product.photo.url(:original)) , :rel => 'facebox'  %>
+20: 		</div>
+21: 		<div class="entry_right">
+22: 			<h3><%=h product.title %></h3>
+
+    app/views/store/index.html.erb:38:in `compile!'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (71.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:49:55) [GET]
+  [4;35;1mProduct Load (6.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 156ms (View: 126, DB: 7) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:52:08) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 141ms (View: 117, DB: 3) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:55:33) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 150ms (View: 103, DB: 5) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:56:20) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 77ms (View: 57, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:56:21) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:56:40) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 79ms (View: 58, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:56:40) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-06-22 22:58:12) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+Completed in 200ms (View: 175, DB: 2) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-06-22 22:58:14) [GET]
+  Parameters: {"id"=>"49"}
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 49) [0m
+Rendering template within layouts/store
+Rendering products/edit
+Completed in 48ms (View: 23, DB: 3) | 200 OK [http://127.0.0.1/products/49/edit]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2011-06-22 22:58:22) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"8WRn0zrb1oo6sCVXku0kvQHF14QW+so+QVCKCEvOt0c=", "id"=>"49", "product"=>{"price"=>"20", "photo"=>#<File:C:/Users/Kamila/AppData/Local/Temp/RackMultipart20110622-1736-1wt6zxb-0>, "image_url"=>"/images/head.jpg", "title"=>"HEAD Snowboard", "description"=>"I bought it this year from \"Play it again\". \r\nI gave it to Freestyle for premium stone grind. \r\nThe board is 157 cm long.", "status"=>"2"}}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 49) [0m
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-60ecpc-0.jpg[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-60ecpc-0.jpg[0]" -resize "100x" -crop "100x100+0+25" +repage "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-60ecpc-020110622-1736-zipxoh-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-60ecpc-0.jpg[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-60ecpc-0.jpg[0]" -resize "150x150>" "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-60ecpc-020110622-1736-rk4vp1-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-60ecpc-0.jpg[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-60ecpc-0.jpg[0]" -resize "300x300>" "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-60ecpc-020110622-1736-1x49dzy-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-60ecpc-0.jpg[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-60ecpc-0.jpg[0]" -resize "400x400>" "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-60ecpc-020110622-1736-e6pes8-0" 2>NUL
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'HEAD Snowboard' AND "products".id <> 49) LIMIT 1[0m
+[paperclip] Saving attachments.
+[paperclip] deleting C:/workspace/naoku/public/system/photos/49/original/head.jpg
+[paperclip] deleting C:/workspace/naoku/public/system/photos/49/thumb/head.jpg
+[paperclip] deleting C:/workspace/naoku/public/system/photos/49/small/head.jpg
+[paperclip] deleting C:/workspace/naoku/public/system/photos/49/medium/head.jpg
+[paperclip] deleting C:/workspace/naoku/public/system/photos/49/large/head.jpg
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/thumb/head.jpg
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/small/head.jpg
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/medium/head.jpg
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/large/head.jpg
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/original/head.jpg
+Redirected to http://127.0.0.1:3000/products/49
+Completed in 6187ms (DB: 2) | 302 Found [http://127.0.0.1/products/49]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2011-06-22 22:58:28) [GET]
+  Parameters: {"id"=>"49"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 49) [0m
+Rendering template within layouts/store
+Rendering products/show
+Completed in 42ms (View: 20, DB: 1) | 200 OK [http://127.0.0.1/products/49]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 22:58:30) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 56ms (View: 39, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 22:58:30) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-06-22 23:03:59) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+Completed in 91ms (View: 65, DB: 2) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-06-22 23:04:01) [GET]
+  Parameters: {"id"=>"49"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 49) [0m
+Rendering template within layouts/store
+Rendering products/edit
+Completed in 48ms (View: 21, DB: 1) | 200 OK [http://127.0.0.1/products/49/edit]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2011-06-22 23:04:08) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"8WRn0zrb1oo6sCVXku0kvQHF14QW+so+QVCKCEvOt0c=", "id"=>"49", "product"=>{"price"=>"20", "photo"=>#<File:C:/Users/Kamila/AppData/Local/Temp/RackMultipart20110622-1736-1kfi2sl-0>, "image_url"=>"/images/head.jpg", "title"=>"HEAD Snowboard", "description"=>"I bought it this year from \"Play it again\". \r\nI gave it to Freestyle for premium stone grind. \r\nThe board is 157 cm long.", "status"=>"2"}}
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 49) [0m
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-3mtb8r-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-3mtb8r-0.JPG[0]" -resize "100x" -crop "100x100+0+24" +repage "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-3mtb8r-020110622-1736-9nmoyb-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-3mtb8r-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-3mtb8r-0.JPG[0]" -resize "150x150>" "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-3mtb8r-020110622-1736-4u26lg-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-3mtb8r-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-3mtb8r-0.JPG[0]" -resize "300x300>" "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-3mtb8r-020110622-1736-6g54ho-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-3mtb8r-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-3mtb8r-0.JPG[0]" -resize "400x400>" "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-3mtb8r-020110622-1736-kmxoc9-0" 2>NUL
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'HEAD Snowboard' AND "products".id <> 49) LIMIT 1[0m
+  [4;35;1mProduct Update (2.0ms)[0m   [0mUPDATE "products" SET "updated_at" = '2011-06-23 03:04:15', "photo_file_name" = 'head.JPG', "photo_file_size" = 172476 WHERE "id" = 49[0m
+[paperclip] Saving attachments.
+[paperclip] deleting C:/workspace/naoku/public/system/photos/49/original/head.jpg
+[paperclip] deleting C:/workspace/naoku/public/system/photos/49/thumb/head.jpg
+[paperclip] deleting C:/workspace/naoku/public/system/photos/49/small/head.jpg
+[paperclip] deleting C:/workspace/naoku/public/system/photos/49/medium/head.jpg
+[paperclip] deleting C:/workspace/naoku/public/system/photos/49/large/head.jpg
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/thumb/head.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/small/head.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/medium/head.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/large/head.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/original/head.JPG
+Redirected to http://127.0.0.1:3000/products/49
+Completed in 6559ms (DB: 5) | 302 Found [http://127.0.0.1/products/49]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2011-06-22 23:04:15) [GET]
+  Parameters: {"id"=>"49"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 49) [0m
+Rendering template within layouts/store
+Rendering products/show
+Completed in 44ms (View: 18, DB: 1) | 200 OK [http://127.0.0.1/products/49]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-06-22 23:04:17) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+Completed in 134ms (View: 101, DB: 3) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-06-22 23:04:20) [GET]
+  Parameters: {"id"=>"52"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 52) [0m
+Rendering template within layouts/store
+Rendering products/edit
+Completed in 54ms (View: 22, DB: 1) | 200 OK [http://127.0.0.1/products/52/edit]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2011-06-22 23:04:29) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"8WRn0zrb1oo6sCVXku0kvQHF14QW+so+QVCKCEvOt0c=", "id"=>"52", "product"=>{"price"=>"40", "photo"=>#<File:C:/Users/Kamila/AppData/Local/Temp/RackMultipart20110622-1736-9faafe-0>, "image_url"=>"/images/dresser.jpg", "title"=>"WOODEN dresser", "description"=>"Nice, stylish wooden dresser.", "status"=>"1"}}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 52) [0m
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-1qaptdf-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-1qaptdf-0.JPG[0]" -resize "100x" -crop "100x100+0+24" +repage "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-1qaptdf-020110622-1736-d1xaeg-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-1qaptdf-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-1qaptdf-0.JPG[0]" -resize "150x150>" "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-1qaptdf-020110622-1736-8sc5ik-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-1qaptdf-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-1qaptdf-0.JPG[0]" -resize "300x300>" "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-1qaptdf-020110622-1736-j0etx7-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-1qaptdf-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-1qaptdf-0.JPG[0]" -resize "400x400>" "C:/Users/Kamila/AppData/Local/Temp/stream20110622-1736-1qaptdf-020110622-1736-9e34tv-0" 2>NUL
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'WOODEN dresser' AND "products".id <> 52) LIMIT 1[0m
+  [4;35;1mProduct Update (2.0ms)[0m   [0mUPDATE "products" SET "updated_at" = '2011-06-23 03:04:36', "photo_file_name" = 'dresser.JPG', "photo_file_size" = 220638 WHERE "id" = 52[0m
+[paperclip] Saving attachments.
+[paperclip] deleting C:/workspace/naoku/public/system/photos/52/original/dresser.jpg
+[paperclip] deleting C:/workspace/naoku/public/system/photos/52/thumb/dresser.jpg
+[paperclip] deleting C:/workspace/naoku/public/system/photos/52/small/dresser.jpg
+[paperclip] deleting C:/workspace/naoku/public/system/photos/52/medium/dresser.jpg
+[paperclip] deleting C:/workspace/naoku/public/system/photos/52/large/dresser.jpg
+[paperclip] saving C:/workspace/naoku/public/system/photos/52/thumb/dresser.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/52/small/dresser.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/52/medium/dresser.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/52/large/dresser.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/52/original/dresser.JPG
+Redirected to http://127.0.0.1:3000/products/52
+Completed in 6443ms (DB: 3) | 302 Found [http://127.0.0.1/products/52]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2011-06-22 23:04:36) [GET]
+  Parameters: {"id"=>"52"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 52) [0m
+Rendering template within layouts/store
+Rendering products/show
+Completed in 35ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/products/52]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 23:04:38) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 50ms (View: 36, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 23:04:39) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 23:06:57) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+ERROR: compiling _run_erb_app47views47store47index46html46erb RAISED compile error
+C:/workspace/naoku/app/views/store/index.html.erb:19: syntax error, unexpected tASSOC, expecting ')'
+...photo.url(:large) ,( :class => 'contimage', :rel => 'facebox...
+                              ^
+C:/workspace/naoku/app/views/store/index.html.erb:19: syntax error, unexpected ',', expecting ')'
+...rge) ,( :class => 'contimage', :rel => 'facebox')  ).to_s); ...
+                              ^
+Function body:           def _run_erb_app47views47store47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<p> This is the list of the things I am willing to sell. Note that it is not a store.\n\t<br />It was created for presentation purposes only. \n\t<br /><br />\n\t<span class=\"lower\">\n\tIf you are interested in any of the items click <span class=\"green\">I want it</span>.<br />\n\tYou can inform me about the items you like by clicking <span class=\"green\">send</span> and filling the form.\n\t</span>\n\t</p>\n<div class=\"search\">"
+
+
+
+
+
+
+
+;  form_tag :method => 'get' do; @output_buffer.concat "\n\t<div class=\"search\">"
+; @output_buffer.concat(( text_field_tag :search, params[:search] ).to_s); @output_buffer.concat "\n\t"
+; @output_buffer.concat(( submit_tag "Search", :name => nil ).to_s); @output_buffer.concat "\n\t"
+; end; @output_buffer.concat "\n\t</div></div>\n\t<h1> </h1>\n"
+
+
+;  for product in @products 
+@output_buffer.concat "\t<div class=\"entry\">\n\t\t<div class=\"entry_left\">\n\t\t\t<!-- "
+
+; @output_buffer.concat(( image_tag product.photo.url(:original), :rel => 'facebox' ).to_s); @output_buffer.concat " -->\n\t\t\t"
+; @output_buffer.concat(( link_to image_tag(product.photo.url(:original)),product.photo.url(:large) ,( :class => 'contimage', :rel => 'facebox')  ).to_s); @output_buffer.concat "\n\t\t</div>\n\t\t<div class=\"entry_right\">\n\t\t\t<h3>"
+
+
+; @output_buffer.concat((h product.title ).to_s); @output_buffer.concat "</h3>\n\t\t\t"
+; @output_buffer.concat(( product.description ).to_s); @output_buffer.concat "\t\t\n\t\t\t<div><b>Status:</b>  "
+; @output_buffer.concat((h Product::STATUSES[product.status][0] ).to_s); @output_buffer.concat "</div>\n\t\t\t<div class=\"add_button\">\n\t\t\t\t"
+
+;  form_remote_tag :url => { :action => :add_to_cart, :id => product } do ; @output_buffer.concat "\n\t\t\t\t<div class=\"add_button\"> "
+; @output_buffer.concat(( submit_tag "I want it" ).to_s); @output_buffer.concat "\n\t\t\t\t\t"
+;  end ; @output_buffer.concat "\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\n\t</div>\n"
+
+
+
+
+
+;  end ; @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/workspace/naoku/app/views/store/index.html.erb:38:in `compile!'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/abstract_store.rb:122:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+script/server:3:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/workspace/naoku/app/views/store/index.html.erb:19: syntax error, unexpected tASSOC, expecting ')'
+...photo.url(:large) ,( :class => 'contimage', :rel => 'facebox...
+                              ^
+C:/workspace/naoku/app/views/store/index.html.erb:19: syntax error, unexpected ',', expecting ')'
+...rge) ,( :class => 'contimage', :rel => 'facebox')  ).to_s); ...
+                              ^) on line #19 of app/views/store/index.html.erb:
+16: 	<div class="entry">
+17: 		<div class="entry_left">
+18: 			<!-- <%= image_tag product.photo.url(:original), :rel => 'facebox' %> -->
+19: 			<%= link_to image_tag(product.photo.url(:original)),product.photo.url(:large) ,( :class => 'contimage', :rel => 'facebox')  %>
+20: 		</div>
+21: 		<div class="entry_right">
+22: 			<h3><%=h product.title %></h3>
+
+    app/views/store/index.html.erb:38:in `compile!'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (122.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 23:07:19) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 96ms (View: 63, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 23:08:28) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 77ms (View: 56, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 23:10:30) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 84ms (View: 58, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 23:10:31) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 23:10:55) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (1.0ms)
+Completed in 71ms (View: 52, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 23:10:57) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 23:11:46) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 142ms (View: 118, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 23:11:47) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 23:12:59) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 144ms (View: 62, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 23:13:24) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 23:17:41) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 79ms (View: 56, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 23:18:11) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 323ms (View: 54, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 23:18:13) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 23:18:49) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 183ms (View: 57, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 23:18:51) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 23:19:19) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 229ms (View: 199, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 23:19:22) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-22 23:23:16) [GET]
+  [4;36;1mProduct Load (2.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 159ms (View: 102, DB: 4) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 23:23:17) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)

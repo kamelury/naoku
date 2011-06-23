@@ -15,8 +15,8 @@
 <% for product in @products -%>
 	<div class="entry">
 		<div class="entry_left">
-			<!-- <%= image_tag(product.image_url) %> -->
-			<%= image_tag product.photo.url(:original) %>
+			<!-- <%= image_tag product.photo.url(:original), :rel => 'facebox' %> -->
+			<%= link_to image_tag(product.photo.url(:original)),product.photo.url(:large) ,{ :rel => 'facebox'}  %>
 		</div>
 		<div class="entry_right">
 			<h3><%=h product.title %></h3>
