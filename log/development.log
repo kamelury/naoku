@@ -6117,3 +6117,358 @@ ActionController::RoutingError (No route matches "/facebox/closelabel.png" with 
   c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-23 00:17:42) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (3.0ms)
+Completed in 68ms (View: 47, DB: 2) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-23 00:17:43) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-06-23 00:24:40) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE (status IN (1,2,3)) ORDER BY status DESC[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.0ms)
+Completed in 70ms (View: 45, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-23 00:24:41) [GET]
+
+ActionController::RoutingError (No route matches "/system/photos/49/original/head.JPG" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-23 00:24:41) [GET]
+
+ActionController::RoutingError (No route matches "/system/photos/52/original/dresser.JPG" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-23 00:24:41) [GET]
+
+ActionController::RoutingError (No route matches "/facebox/closelabel.png" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-06-23 00:24:43) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (2.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+Completed in 130ms (View: 105, DB: 3) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-23 00:24:43) [GET]
+
+ActionController::RoutingError (No route matches "/system/photos/52/original/dresser.JPG" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-23 00:24:44) [GET]
+
+ActionController::RoutingError (No route matches "/system/photos/49/original/head.JPG" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-06-23 00:24:45) [GET]
+  Parameters: {"id"=>"49"}
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 49) [0m
+Rendering template within layouts/store
+Rendering products/edit
+Completed in 39ms (View: 16, DB: 2) | 200 OK [http://127.0.0.1/products/49/edit]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2011-06-23 00:24:55) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"8WRn0zrb1oo6sCVXku0kvQHF14QW+so+QVCKCEvOt0c=", "id"=>"49", "product"=>{"price"=>"20", "photo"=>#<File:C:/Users/Kamila/AppData/Local/Temp/RackMultipart20110623-1736-bemt4r-0>, "title"=>"HEAD Snowboard", "description"=>"I bought it this year from \"Play it again\". \r\nI gave it to Freestyle for premium stone grind. \r\nThe board is 157 cm long.", "status"=>"2"}}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 49) [0m
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-1693w7o-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-1693w7o-0.JPG[0]" -resize "100x" -crop "100x100+0+24" +repage "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-1693w7o-020110623-1736-1bi559t-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-1693w7o-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-1693w7o-0.JPG[0]" -resize "150x150>" "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-1693w7o-020110623-1736-hptff6-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-1693w7o-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-1693w7o-0.JPG[0]" -resize "300x300>" "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-1693w7o-020110623-1736-1onz0on-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-1693w7o-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-1693w7o-0.JPG[0]" -resize "400x400>" "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-1693w7o-020110623-1736-1fl8k7p-0" 2>NUL
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'HEAD Snowboard' AND "products".id <> 49) LIMIT 1[0m
+[paperclip] Saving attachments.
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/thumb/head.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/small/head.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/medium/head.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/large/head.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/49/original/head.JPG
+Redirected to http://127.0.0.1:3000/products/49
+Completed in 6597ms (DB: 1) | 302 Found [http://127.0.0.1/products/49]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2011-06-23 00:25:02) [GET]
+  Parameters: {"id"=>"49"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 49) [0m
+Rendering template within layouts/store
+Rendering products/show
+Completed in 41ms (View: 18, DB: 1) | 200 OK [http://127.0.0.1/products/49]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-06-23 00:25:04) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+Completed in 161ms (View: 131, DB: 2) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-23 00:25:05) [GET]
+
+ActionController::RoutingError (No route matches "/system/photos/52/original/dresser.JPG" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing OrdersController#index (for 127.0.0.1 at 2011-06-23 00:25:07) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mOrder Load (1.0ms)[0m   [0;1mSELECT * FROM "orders" ORDER BY name[0m
+Rendering template within layouts/store
+Rendering orders/index
+Completed in 39ms (View: 18, DB: 1) | 200 OK [http://127.0.0.1/orders]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-06-23 00:25:09) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (2.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+Completed in 127ms (View: 103, DB: 3) | 200 OK [http://127.0.0.1/products]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-23 00:25:09) [GET]
+
+ActionController::RoutingError (No route matches "/system/photos/52/original/dresser.JPG" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-06-23 00:25:11) [GET]
+  Parameters: {"id"=>"52"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 52) [0m
+Rendering template within layouts/store
+Rendering products/edit
+Completed in 39ms (View: 15, DB: 2) | 200 OK [http://127.0.0.1/products/52/edit]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2011-06-23 00:25:18) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"8WRn0zrb1oo6sCVXku0kvQHF14QW+so+QVCKCEvOt0c=", "id"=>"52", "product"=>{"price"=>"40", "photo"=>#<File:C:/Users/Kamila/AppData/Local/Temp/RackMultipart20110623-1736-1ds3kr-0>, "title"=>"WOODEN dresser", "description"=>"Nice, stylish wooden dresser.", "status"=>"1"}}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 52) [0m
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-6fh3h5-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-6fh3h5-0.JPG[0]" -resize "100x" -crop "100x100+0+24" +repage "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-6fh3h5-020110623-1736-1rr0su6-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-6fh3h5-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-6fh3h5-0.JPG[0]" -resize "150x150>" "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-6fh3h5-020110623-1736-18vsy2f-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-6fh3h5-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-6fh3h5-0.JPG[0]" -resize "300x300>" "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-6fh3h5-020110623-1736-hh0m2l-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-6fh3h5-0.JPG[0]" 2>NUL
+[paperclip] convert "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-6fh3h5-0.JPG[0]" -resize "400x400>" "C:/Users/Kamila/AppData/Local/Temp/stream20110623-1736-6fh3h5-020110623-1736-gbr6yu-0" 2>NUL
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."title" = 'WOODEN dresser' AND "products".id <> 52) LIMIT 1[0m
+[paperclip] Saving attachments.
+[paperclip] saving C:/workspace/naoku/public/system/photos/52/thumb/dresser.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/52/small/dresser.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/52/medium/dresser.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/52/large/dresser.JPG
+[paperclip] saving C:/workspace/naoku/public/system/photos/52/original/dresser.JPG
+Redirected to http://127.0.0.1:3000/products/52
+Completed in 6790ms (DB: 2) | 302 Found [http://127.0.0.1/products/52]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2011-06-23 00:25:25) [GET]
+  Parameters: {"id"=>"52"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 52) [0m
+Rendering template within layouts/store
+Rendering products/show
+Completed in 65ms (View: 28, DB: 2) | 200 OK [http://127.0.0.1/products/52]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from C:/workspace/naoku/app/controllers/application_controller.rb:10)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-06-23 00:25:27) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (2.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47products47index46html46erb at C:/workspace/naoku/app/views/products/index.html.erb:20)
+Completed in 452ms (View: 355, DB: 4) | 200 OK [http://127.0.0.1/products]
