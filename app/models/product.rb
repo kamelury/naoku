@@ -10,6 +10,12 @@ class Product < ActiveRecord::Base
   has_many :orders, :through => :line_items
   has_many :line_items
   has_attached_file :photo,
+    :storage => :s3,
+    :bucket => 'items_photos',
+    :s3_credentials => {
+      :access_key_id => ENV['AKIAJCUJ6BNCADLEZBGQ'],
+      :secret_access_key => ENV['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']
+    }
     :styles => {
      :thumb=> "100x100#",
      :small  => "150x150>",
