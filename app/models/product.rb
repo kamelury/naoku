@@ -15,7 +15,7 @@ class Product < ActiveRecord::Base
     :s3_credentials => {
       :access_key_id => ENV['AKIAJCUJ6BNCADLEZBGQ'],
       :secret_access_key => ENV['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']
-    }
+    },
     :styles => {
      :thumb=> "100x100#",
      :small  => "150x150>",
