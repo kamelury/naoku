@@ -9,7 +9,8 @@
 
 #facebox .popup{
   position:relative;
-  border:3px solid rgba(0,0,0,0,4);
+  border:3px solid;
+  border-color:#EEEEEE;
   -webkit-border-radius:5px;
   -moz-border-radius:5px;
   border-radius:5px;
