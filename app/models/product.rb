@@ -1,21 +1,21 @@
 class Product < ActiveRecord::Base
     STATUSES = [
    # Displayed stored in db
-   [ "Hidden" , 0 ],
-   [ "Available soon" , 1 ],
-   [ "On sale"  , 2 ],
-   [ "Reserved", 3 ],
-   [ "Sold" , 4 ]
+   [ "hidden" , 0 ],
+   [ "available soon" , 1 ],
+   [ "on sale"  , 2 ],
+   [ "reserved", 3 ],
+   [ "sold" , 4 ]
   ]
   has_many :orders, :through => :line_items
   has_many :line_items
   has_attached_file :photo,
-    :storage => :s3,
-    :bucket => 'items_photos',
-    :s3_credentials => {
-      :access_key_id => 'AKIAJY2XZ2CLM7CNH7QQ',
-      :secret_access_key => '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'
-    },
+    # :storage => :s3,
+    # :bucket => 'items_photos',
+    # :s3_credentials => {
+      # :access_key_id => 'AKIAJY2XZ2CLM7CNH7QQ',
+      # :secret_access_key => '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'
+    # },
     :styles => {
      :thumb=> "100x100#",
      :small  => "150x150>",

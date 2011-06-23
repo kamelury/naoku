@@ -11,11 +11,12 @@
 		<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>">
 		
 			<td>
-				<%= image_tag product.image_url, :class => 'list-image' %>
+				<!-- <%= image_tag product.image_url, :class => 'list-image' %> -->
+				<%= image_tag product.photo.url(:original), :class => 'list-image' %>
 			</td>
 		
 			<td width="60%">
-				<span class="list-title"><%=h product.title %></span><br />
+				<span class="list-title"><%=h product.title %></span> <span class="list-actions"> <u><%=h Product::STATUSES[product.status][0] %></u></span><br />
 				<%=h truncate(product.description.gsub(/<.*?>/,''), 80) %>
 			</td>
 		
